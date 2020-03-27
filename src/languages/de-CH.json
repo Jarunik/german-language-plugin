@@ -371,89 +371,89 @@
     },
     "INPUT_DELEGATE": {
       "ERROR": {
-        "REQUIRED": "The delegate name, address or public key is required",
-        "USERNAME_NOT_FOUND": "The delegate '{0}' could not be found",
-        "ADDRESS_NOT_FOUND": "The delegate with the address '{0}' could not be found",
-        "PUBLIC_KEY_NOT_FOUND": "The delegate with the public key '{0}' could not be found"
+        "REQUIRED": "Name, Adresse oder öffentlicher Schlüssel des Delegierten wird benötigt",
+        "USERNAME_NOT_FOUND": "Der Delegierte '{0}' wurde nicht gefunden",
+        "ADDRESS_NOT_FOUND": "Der Delegierte mit der Adresse '{0}' wurde nicht gefunden",
+        "PUBLIC_KEY_NOT_FOUND": "Der Delegiert mit dem öffentlichen Schlüssel '{0}' wurde nicht gefunden"
       },
-      "SEARCH_HINT": "You can search by username, address or public key"
+      "SEARCH_HINT": "Du kannst nach Benutzernamen, Adressen und öffentlichen Schlüsseln suchen"
     },
     "INPUT_EDITABLE_LIST": {
-      "NO_ITEMS": "This list has no items"
+      "NO_ITEMS": "Diese Liste hat keine Einträge"
     },
     "INPUT_FEE": {
-      "LAST": "Last",
+      "LAST": "Letzte",
       "MINIMUM": "Minimum",
-      "AVERAGE": "Average",
+      "AVERAGE": "Durchschnitt",
       "MAXIMUM": "Maximum",
-      "INPUT": "Input",
-      "ADVANCED": "Advanced",
-      "LOW_FEE_NOTICE": "Transactions with low fees may never get confirmed",
-      "ADVANCED_NOTICE": "Be careful what fee you choose as it will cost more than necessary if too high",
-      "UNIQUE": "The network fee has been set to the static value of {fee}",
+      "INPUT": "Eingabe",
+      "ADVANCED": "Fortgeschritten",
+      "LOW_FEE_NOTICE": "Transaktionen mit tiefer Gebühr werden eventuell nie bestätigt",
+      "ADVANCED_NOTICE": "Wähle die Gebühr mit Bedacht um nicht mehr als nötig zu zahlen",
+      "UNIQUE": "Das Netzwerk verlangt eine statische Gebühr von {fee}",
       "ERROR": {
-        "NOT_VALID": "The fee is not valid",
-        "LESS_THAN_MINIMUM": "The minimum fee is {fee}",
-        "MORE_THAN_MAXIMUM": "The maximum fee is {fee}"
+        "NOT_VALID": "Die Gebühr ist ungültig",
+        "LESS_THAN_MINIMUM": "Die minimale Gebühr ist {fee}",
+        "MORE_THAN_MAXIMUM": "Die maximale Gebühr ist {fee}"
       }
     },
     "INPUT_GRID": {
-      "MORE": "Show more"
+      "MORE": "Mehr anzeigen"
     },
     "INPUT_GRID_MODAL": {
-      "TITLE": "Select"
+      "TITLE": "Wählen"
     },
     "INPUT_PUBLIC_KEY": {
-      "TITLE": "Public Key",
+      "TITLE": "Öffentlicher Schlüssel",
       "ERROR": {
-        "NOT_VALID": "The public key is not valid"
+        "NOT_VALID": "Der öffentliche Schlüssel ist ungültig"
       }
     },
     "WALLET_SELECTION": {
-      "PROFILE": "Sender Profile",
-      "WALLET": "Sender Wallet"
+      "PROFILE": "Absender Profil",
+      "WALLET": "Absender Wallet"
     },
     "MODAL_ADDITIONAL_LEDGERS": {
-      "CANCEL": "Cancel",
-      "INFO": "Choose the max amount of Ledger wallets you would like to show. You are currently showing {quantity} wallets.",
-      "LARGE_QUANTITY": "You are trying to load a large number of wallets. This could result in slow loading or the device could timeout.",
-      "LOAD": "Load Wallets",
-      "QUANTITY": "Quantity",
-      "TITLE": "Load Additional Ledger Wallets"
+      "CANCEL": "Abbrechen",
+      "INFO": "Wähle die Anzahl der Ledger Wallets die angezeigt werden sollen. Momentan werden {quantity} wallets angezeigt.",
+      "LARGE_QUANTITY": "Du verssucht sehr viele Wallets zu laden. Das könnte lange dauern und die Ablaufzeit des Geräts könnte überschritten werden.",
+      "LOAD": "Lade Wallets",
+      "QUANTITY": "Anzahl",
+      "TITLE": "Lade zusätzliche Ledger Wallets"
     },
     "MODAL_EXPORT_WALLETS": {
-      "ADVANCED": "Advanced Options",
-      "CANCEL": "Cancel",
-      "COUNT": "{count} wallets will be exported",
+      "ADVANCED": "Fortgeschrittene Optionen",
+      "CANCEL": "Abbrechen",
+      "COUNT": "{count} Wallets werden exportiert",
       "ERROR": {
-        "EXPORT_WALLETS": "Failed to export your wallets"
+        "EXPORT_WALLETS": "Fehler beim exportieren deiner Wallets"
       },
-      "EXPORT": "Export 0 Wallets | Export 1 Wallet | Export {count} Wallets",
-      "INSTRUCTIONS": "<b>Important:</b> Your exported wallets will not contain your passphrases, only the addresses and respective names will be saved!",
+      "EXPORT": "Exportiere 0 Wallets | Exportiere 1 Wallet | Exportiere {count} Wallets",
+      "INSTRUCTIONS": "<b>Wichtig:</b> Deine exportieren Wallets werden keine Passphrase enthalten. Nur die Adressen und Empfänger Namen werden gespeichert!",
       "OPTIONS": {
-        "ADD_NETWORK": "Add information about the network",
-        "EXCLUDE_EMPTY": "Exclude empty wallets",
-        "EXCLUDE_LEDGER": "Exclude ledger wallets",
-        "EXCLUDE_UNNAMED": "Exclude wallets without a name"
+        "ADD_NETWORK": "Informationen über das Netzwerk hinzufügen",
+        "EXCLUDE_EMPTY": "Ohne leere Wallets",
+        "EXCLUDE_LEDGER": "Ohne Ledger Wallets",
+        "EXCLUDE_UNNAMED": "Ohne Wallets ohne Namen"
       },
       "SUCCESS": {
-        "EXPORT_WALLETS": "Your wallets were successfully exported to: {path}"
+        "EXPORT_WALLETS": "Dein Wallet wurde erfolgreich exportiert. Pfad: {path}"
       },
-      "TITLE": "Export Wallets"
+      "TITLE": "Wallets exportieren"
     },
     "MODAL_CLOSE_CONFIRMATION": {
-      "QUESTION": "Are you sure you want to close this window?",
-      "CONFIRM": "Yes, close",
-      "CANCEL": "No, cancel"
+      "QUESTION": "Willst du das Fenster wirklich schliessen?",
+      "CONFIRM": "Ja, schliessen",
+      "CANCEL": "Nein, abbrechen"
     },
     "MODAL_CONFIRMATION": {
-      "CANCEL": "No, cancel",
-      "CONTINUE": "Yes, I am sure",
-      "TITLE": "Confirmation"
+      "CANCEL": "Nein, abbrechen",
+      "CONTINUE": "Ja, Ich bin sicher",
+      "TITLE": "Bestätigung"
     },
     "MODAL_QR_CODE": {
       "TITLE": "QR Code",
-      "SUBTITLE": "Scan for Address"
+      "SUBTITLE": "Adresse scannen"
     },
     "MODAL_QR_SCANNER": {
       "ERROR": {
