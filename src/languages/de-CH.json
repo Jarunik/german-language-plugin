@@ -119,120 +119,121 @@
       "RESPONSIBILITY": {
         "TITLE": "Deine Verantwortung",
         "STORAGE": {
-          "EXPLANATION": "The {PASSPHRASE} of each wallet address is able to sign transactions and move funds. This means if your computer dies but you have your passphrase, you can still access your funds. The ARK Desktop Wallet has an additional feature that lets you set an {ENCRYPTED} as well, for easier management. If your computer dies, you cannot use the encrypted password to access your funds from a different machine. {NEED}.",
-          "PASSPHRASE": "passphrase",
-          "ENCRYPTED": "encrypted password",
-          "NEED": "You will need the passphrase"
+          "EXPLANATION": "Die {PASSPHRASE} jeder Wallet Adresse kann Transaktionen signieren und Vermögen übertragen. Mit der Passphrase hast du also auch ohne deine Computer Zugriff auf dein Vermögen. Für eine einfacher Nutzung kannst du mit deinem ARK Desktop Wallet auch ein {ENCRYPTED} setzen. Mit dem verschlüsselten Passwort kannst du jedoch nicht ohne deinen Computer dein Vermögen verwalten. {NEED}.",
+          "PASSPHRASE": "Passphrase",
+          "ENCRYPTED": "Verschlüsseltes Passwort",
+          "NEED": "Du brauchst dann deine Passphrase"
         },
         "BACKUP": {
-          "ALWAYS": "Always backup your passphrase and keep it in a safe place.",
-          "OPTIONS": "You can write it down on thick paper and store multiple copies in secure locations. You can also store it on an encrypted flash drive. Alternatively, you can use a Ledger Nano S USB hardware device, available at Ledger.com, to store and access your funds and the ARK Desktop Wallet. You can plug your Ledger Nano S into your computer and access the ARK blockchain without needing to enter your passphrase."
+          "ALWAYS": "Erstelle immer Sicherungen von deiner Passphrase und verwahre diese an einem sicheren Ort.",
+          "OPTIONS": "Du kannst sie auf einem dicken Papier aufschreiben und an verschiedenen, sicheren Orten aufbewahren. Du kannst sie auch auf einem verschlüsselten USB Laufwerk speichern. Alternativ kannst du auch ein Ledger USB Hardware Wallet benutzen. Diese sind auf Ledger.com verfügbar. Damit kannst du dein Vermögen mit dem ARK Desktop Wallet verwalten. Statt der Passphrase kannst du den Ledger and deinen Computer anschliessen um damit Transaktionen auf der ARK Blockchain zu erstellen."
         },
-        "REMEMBER": "Remember, anyone who has your passphrase can access your funds. Never share your account with anyone and avoid storing it in locations that are susceptible to hacks, such as the Cloud."
+        "REMEMBER": "Merke dir: Jeder mit deiner Passphrase kann über dein Vermögen verfügen. Teile dein Konto und deine Passphrase mit niemanden und speichere deine Passphrase nie an unsicheren Orten wie beispielsweise in der Cloud."
       },
       "TURN": {
-        "TITLE": "Your Turn",
-        "KNOWLEDGE": "Now, armed with the knowledge of how important it is to keep your passphrases safe, you are ready to claim your financial autonomy with the ARK Desktop Wallet.",
-        "SUPPORT": "ARK is an open-source ecosystem and if you need assistance, the ARK community and team is here to help. Create a post on reddit.ark.io, or join the real-time chat system at slack.ark.io.",
-        "CONCLUSION": "Everyone here on the ARK.io team hopes you enjoy using the ARK Desktop Wallet to participate in the blockchain revolution!"
+        "TITLE": "Du bist dran",
+        "KNOWLEDGE": "Nun weissst du wie wichtig es ist deine Passphrase sicher zu verwalten. Damit steht auch deiner finanziellen Unabhängigkeit mit dem Ark Desktop Wallet nichts mehr im Wege.",
+        "SUPPORT": "ARK ist ein Open Source Ökosystem und die ARK Gemeinschaft und das Team sind gerne bereit dir zu helfen. Du kannst bei Fragen einen Beitrag auf reddit.ark.io erstellen oder unserem Chat auf slack.ark.io beitreten.",
+        "CONCLUSION": "Das ARK.io team wünscht dir viel Spass bei der Benutzung des ARK Desktop Wallets und freut sich dass du bei der Blockchain Revolution dabei bist!"
       }
     },
     "SEARCH": {
-      "DEFAULT_PLACEHOLDER": "Find transaction, address or delegate",
-      "FILTER": "Filter",
-      "SEARCH_BY": "Search by",
-      "SELECT_OPTION": "Select an option",
-      "DELEGATE": "Delegate",
+      "DEFAULT_PLACEHOLDER": "Finde eine Transaktion, Adresse oder einen Delegierten",
+      "FILTER": "Filtern",
+      "SEARCH_BY": "Suche nach",
+      "SELECT_OPTION": "Wähle eine Option",
+      "DELEGATE": "Delegieren",
       "WALLETS": "Wallets",
-      "PERIOD": "Period"
+      "PERIOD": "Periode"
     },
     "CONTACT_REMOVAL_CONFIRMATION": {
-      "QUESTION": "Are you sure you want to remove this contact?"
+      "QUESTION": "Willst du diesen Kontakt wirklich entfernen?"
     },
     "ENCRYPTION": {
-      "DECRYPTING": "Decrypting wallet with password...",
-      "ENCRYPTING": "Encrypting wallet with password...",
-      "FAILED_DECRYPT": "Failed to decrypt passphrase",
-      "FAILED_ENCRYPT": "Failed to encrypt passphrase"
+      "DECRYPTING": "Entschlüssle Wallet Passwort...",
+      "ENCRYPTING": "Verschlüssle Wallet Passwort...",
+      "FAILED_DECRYPT": "Fehler beim entschüsseln der Passphrase",
+      "FAILED_ENCRYPT": "Fehler beim verschlüsseln der Passphrase"
     },
     "LEDGER": {
-      "NEEDS_UPDATE": "Ledger update available! Please update the ARK app via Ledger Live to send transactions on this network"
+      "NEEDS_UPDATE": "Ledger Aktualisierung verfügbar! Bitte aktualisiere die AKR App über Ledger Live um Transaktionen auf diesem Netzwerk zu schicken"
     },
     "PEER": {
-      "BEST": "Connect to best",
-      "CONNECTED": "Connected to peer",
-      "CONNECT_CUSTOM": "Connect custom peer",
-      "CUSTOM_TITLE": "Connect to custom peer",
-      "MULTI_SIGNATURE_TITLE": "Connect multisignature peer",
-      "CONNECT_FAILED": "Failed to connect to peer",
-      "LATENCY": "Latency",
-      "DISCONNECT": "Disconnect from peer",
-      "FAILED_REFRESH": "Failed to refresh peers",
-      "HEIGHT": "Block height",
-      "LAST_CHECKED": "Last checked",
-      "NONE": "None",
-      "NO_CONNECT": "Could not connect",
-      "PEER": "Peer",
-      "STATUS_CHECK_FAILED": "Status check failed",
-      "WRONG_NETWORK": "Wrong network"
+      "BEST": "Verbinde mit dem Besten",
+      "CONNECTED": "Verbunden mit einem Server",
+      "CONNECT_CUSTOM": "Verbinde mit einem kundenspezifischen Server",
+      "CUSTOM_TITLE": "Verbinde mit einem kundenspezifischen Server",
+      "MULTI_SIGNATURE_TITLE": "Verbinde mit einem Mehrfach-Unterschriften Server",
+      "CONNECT_FAILED": "Fehler beim Verbinden mit einem Server",
+      "LATENCY": "Verzögerung",
+      "DISCONNECT": "Vom Server trennen",
+      "FAILED_REFRESH": "Fehler bei der Server Aktualisierung",
+      "HEIGHT": "Blockhöhe",
+      "LAST_CHECKED": "Letzte Prüfung",
+      "NONE": "Keine",
+      "NO_CONNECT": "Verbindung fehlgeschlagen",
+      "PEER": "Server",
+      "STATUS_CHECK_FAILED": "Status Prüfung fehlgeschlagen",
+      "WRONG_NETWORK": "Falsches Netzwerk"
     },
     "VALIDATION": {
-      "TOO_LONG": "The '{0}' is too long",
-      "TOO_SHORT": "The '{0}' is too short",
-      "INVALID_SEED": "Invalid Seed",
-      "INVALID_URI": "Invalid URI",
-      "INVALID_URL": "Invalid URL",
-      "INVALID_PORT": "Invalid Port Number",
-      "INVALID_FORMAT": "Invalid format",
-      "INVALID_TYPE": "Invalid type",
-      "MAX_LENGTH": "Max {0}",
-      "MIN_LENGTH": "Min {0}",
-      "MUST_BE_GREATER_THAN": "Must be greater than {0}",
-      "NOT_MATCH": "The '{0}' does not match the '{1}'",
-      "NOT_VALID": "The '{0}' is not valid",
-      "NOT_NUMERIC": "The '{0}' is not numeric",
-      "NO_SCHEME": "The '{0}' does not have 'http://' or 'https://'",
+      "TOO_LONG": "'{0}' ist zu lange",
+      "TOO_SHORT": "'{0}' ist zu kurz",
+      "INVALID_SEED": "Ungültige Seed",
+      "INVALID_URI": "Ungültige URI",
+      "INVALID_URL": "Ungültige URL",
+      "INVALID_PORT": "Ungültige Port Nummer",
+      "INVALID_FORMAT": "Ungültiges Format",
+      "INVALID_TYPE": "Ungültiger Typ",
+      "MAX_LENGTH": "Maximal {0}",
+      "MIN_LENGTH": "Minimal {0}",
+      "MUST_BE_GREATER_THAN": "Muss grösser sein als {0}",
+      "NOT_MATCH": "'{0}' passt nicht zu '{1}'",
+      "NOT_VALID": "'{0}' ist nicht gültig",
+      "NOT_NUMERIC": "'{0}' ist keine Zahl",
+      "NO_SCHEME": "'{0}' beinhaltet kein 'http://' oder 'https://'",
       "NAME": {
-        "DUPLICATED": "The name '{0}' already exists",
-        "EXISTS_AS_CONTACT": "The name '{0}' has already been assigned to a contact",
-        "EXISTS_AS_WALLET": "The name '{0}' has already been assigned to a wallet",
-        "MAX_LENGTH": "The name should have less than {0} characters.",
-        "MIN_LENGTH": "The name should have at least 1 character | The name should have at least {n} characters."
+        "DUPLICATED": "Der Name '{0}' existiert bereits",
+        "EXISTS_AS_CONTACT": "Der Name '{0}' wurde bereits für einen Kontakt verwendet",
+        "EXISTS_AS_WALLET": "Der Name '{0}' wurde bereits für ein Wallet verwendet",
+        "MAX_LENGTH": "Der Name sollte kürzer als {0} Zeichen sein.",
+        "MIN_LENGTH": "Der Name muss mindestens aus 1 Zeichen bestehen | Der Name muss mindestens {n} Zeichen lang sein."
       },
       "PASSWORD": {
-        "TOO_SHORT": "Your password must be at least {0} characters long",
-        "NUMBERS": "Your password must contain at least 1 number",
-        "SPECIAL_CHARACTERS": "Your password must contain at least 1 special character",
-        "NO_MATCH": "Your passwords do not match"
+        "TOO_SHORT": "Dein Passwort muss mindestens {0} Zeichen lang sein",
+        "NUMBERS": "Dein Passwort muss mindestens 1 Zahl enthalten",
+        "SPECIAL_CHARACTERS": "Dein Passwort muss mindestens 1 spezielles Zeichen enthalten",
+        "NO_MATCH": "Deine Passwörter stimmen nicht überrein"
       },
       "ADDRESS": {
-        "EXISTS_AS_CONTACT": "The address '{0}' has already been added as a contact",
-        "EXISTS_AS_WALLET": "The address '{0}' has already been imported as a wallet"
+        "EXISTS_AS_CONTACT": "Die Adresse '{0}' wurde bereits als Kontakt hinzugefügt",
+        "EXISTS_AS_WALLET": "Die Adresse '{0}' wurde bereits als Wallet importiert"
       },
       "PUBLIC_KEY": {
-        "INVALID_LENGTH": "The public key must be 66 characters long"
+        "INVALID_LENGTH": "Der öffentlich Schlüssel muss 66 Zeichen lang sein"
       },
       "URL": {
-        "INVALID": "Invalid 'URL'",
-        "NO_GITHUB": "Only URLs containing 'github.com' are allowed",
-        "NO_GITHUB_REPOSITORY": "This URL does not point to a GitHub repository"
+        "INVALID": "Ungültige 'URL'",
+        "NO_GITHUB": "Nur URLs welche 'github.com' enthalten sind erlaubt",
+        "NO_GITHUB_REPOSITORY": "Diese URL zeigt auf kein GitHub repository"
       },
       "VENDOR_FIELD": {
-        "LIMIT_REACHED": "You can enter a maximum of {0} characters only",
-        "LIMIT_REMAINING": "{0}/{1} Remaining"
+        "LIMIT_REACHED": "Du kannst höchstens {0} Zeichen eingeben",
+        "LIMIT_REMAINING": "{0}/{1} verbleibend"
       },
-      "RECIPIENT_DIFFERENT_NETWORK": "The recipient {0} belongs to a different network",
-      "REQUIRED": "The '{0}' is required",
-      "SEND_NOT_ENABLED": "Sending is not enabled for the selected wallet",
-      "WALLET_NOT_ACTIVE": "Select a wallet and open the URI again",
-      "WARNING_BIP39": "The '{0}' contains a BIP39 Passphrase",
-      "WARNING_NOT_BIP39": "The '{0}' is not a BIP39 Passphrase"
+      "RECIPIENT_DIFFERENT_NETWORK": "Der Empfänger {0} gehört zu einem anderen Netzwerk",
+      "REQUIRED": "'{0}' wird benötigt",
+      "SEND_NOT_ENABLED": "Schicken ist für das ausgewählte Wallet nicht aktiviert",
+      "WALLET_NOT_ACTIVE": "Wähle ein Wallet und öffne die URI nochmals",
+      "WARNING_BIP39": "'{0}' enthält eine BIP39 Passphrase",
+      "WARNING_NOT_BIP39": "'{0}' ist keine BIP39 Passphrase"
     },
     "LANGUAGES": {
-      "en-US": "English"
+      "en-US": "Englisch",
+      "de-CH": "Deutsch"
     },
     "TIME_FORMAT": {
-      "DEFAULT": "Default",
+      "DEFAULT": "Standard",
       "12H": "12h",
       "24H": "24h"
     },
@@ -247,126 +248,126 @@
       "spanish": "Spanish"
     },
     "MARKET": {
-      "MARKET": "Market",
-      "HISTORICAL_DATA": "Historical data",
-      "CHECK_TRADEABLE": "Check Tradeable",
+      "MARKET": "Markt",
+      "HISTORICAL_DATA": "Historische Daten",
+      "CHECK_TRADEABLE": "Prüfe handelbar",
       "DAY": "Day",
       "WEEK": "Week",
       "MONTH": "Month"
     },
     "TABLE": {
-      "PAGE": "Page",
-      "ROWS_PER_PAGE": "Rows per page",
-      "NO_TRANSACTIONS": "No transactions have been found. The latest transactions will be displayed here.",
-      "NO_CONTACTS": "No contacts to be shown.",
-      "NO_DELEGATES": "No delegates to be shown.",
-      "NO_WALLETS": "No wallets to be shown."
+      "PAGE": "Seite",
+      "ROWS_PER_PAGE": "Zeilen pro Seite",
+      "NO_TRANSACTIONS": "Keine Transaktionen gefunden. Die letzten Transaktionen werden hier angezeigt.",
+      "NO_CONTACTS": "Keine Kontakte anzuzeigen.",
+      "NO_DELEGATES": "Keine Delegierten anzuzeigen.",
+      "NO_WALLETS": "Keine Wallets anzuzeigen."
     },
     "APP": {
       "RELEASE": {
-        "REQUEST_ERROR": "Cannot check latest version"
+        "REQUEST_ERROR": "Neueste Version kann nicht geprüft werden"
       }
     },
     "APP_FOOTER": {
       "TEXT": "Made with ♥ by ARK"
     },
     "APP_SIDEMENU": {
-      "ANNOUNCEMENTS": "Announcements",
-      "CONTACTS": "My contacts",
-      "CURRENT_PROFILE": "Your current profile is \"{profileName}\"",
+      "ANNOUNCEMENTS": "Ankündigungen",
+      "CONTACTS": "Meine Kontakte",
+      "CURRENT_PROFILE": "Dein aktuelles Profil ist \"{profileName}\"",
       "DASHBOARD": "Dashboard",
-      "NETWORK": "Network",
-      "NETWORKS": "Manage networks",
+      "NETWORK": "Netzwerk",
+      "NETWORKS": "Netzwerke verwalten",
       "PLUGIN_MANAGER": "Plugin Manager",
-      "PLUGINS_PAGES": "Plugin Pages",
+      "PLUGINS_PAGES": "Plugin Seiten",
       "SETTINGS": {
-        "CURRENCY": "Currency",
-        "DARK_MODE": "Dark mode",
+        "CURRENCY": "Währung",
+        "DARK_MODE": "Nachtmodus",
         "SCREENSHOT_PROTECTION": {
-          "TITLE": "Screenshot protection",
-          "QUESTION": "Are you sure you want to disable screenshot protection?",
-          "NOTE": "This feature enables applications to protect their own onscreen window content from being captured or copied though screenshot utilities.",
-          "SESSION_ONLY": "Disable for this session only",
-          "PERMANENTLY": "Disable permanently"
+          "TITLE": "Screenshot Schutz",
+          "QUESTION": "Bist du sicher dass du den Screenshot Schutz deaktivieren willst?",
+          "NOTE": "Diese Funktion erlaubt Applikationen den Inhalt der eigenen Fenster vor der Aufnahme durch Screenshot Applikationen zu schützen.",
+          "SESSION_ONLY": "Nur für diese Sitzung deaktivieren",
+          "PERMANENTLY": "Permanent deaktivieren"
         },
-        "BACKGROUND_UPDATE_LEDGER": "Update Ledger in background",
-        "BROADCAST_PEERS": "Broadcast to multiple peers",
-        "TITLE": "Current settings",
-        "MANAGE_BLACKLIST": "Manage plugin blacklist",
+        "BACKGROUND_UPDATE_LEDGER": "Ledger im Hintergrund aktualisieren",
+        "BROADCAST_PEERS": "An mehrere Server übertragen",
+        "TITLE": "Aktuelle Einstellungen",
+        "MANAGE_BLACKLIST": "Schwarze List von Plugins verwalten",
         "RESET_DATA": {
-          "TITLE": "Reset data",
-          "QUESTION": "Are you sure you want to wipe your data?",
-          "NOTE": "All your data, including profiles, wallets, networks and contacts will be removed from the app and reset to default. The data, such as transactions, that are on the blockchain cannot be removed."
+          "TITLE": "Daten zurücksetzen",
+          "QUESTION": "Willst du wirklich alle Daten löschen?",
+          "NOTE": "Alle Daten, inklusive Profile, Wallets, Netzwerke und Kontakte werden von der Applikation gelöscht und auf den Initialzustand zurückgesetzt. Daten auf der Blockchain (wie Transaktionen) können nicht gelöscht werden."
         },
         "THEME": "Theme"
       },
-      "WALLETS": "My wallets"
+      "WALLETS": "Meine Wallets"
     },
     "APP_SIDEMENU_NOTIFICATION": {
-      "TOOLTIP": "New version ({version}) has been released!"
+      "TOOLTIP": "Neue Version ({version}) wurde veröffentlicht!"
     },
     "APP_UPDATER": {
       "RELEASE_NOTES": "Release Notes",
-      "DOWNLOAD_NOW": "Yes, download now",
-      "MAYBE_LATER": "No, maybe later",
+      "DOWNLOAD_NOW": "Ja, jetzt herunterladen",
+      "MAYBE_LATER": "Nein, vielleicht später",
       "DOWNLOADING": "Downloading {version}",
       "DOWNLOADED": "Downloaded {version}",
-      "QUIT_AND_INSTALL": "Quit and install",
-      "UNKNOWN_ERROR": "Unknown error. Close this window and try again.",
-      "NETWORK_ERROR": "Looks like your file isn't downloading. Verify your connection."
+      "QUIT_AND_INSTALL": "Verlassen und installieren",
+      "UNKNOWN_ERROR": "Unbekannter Fehler. Schliesse das Fenster und versuche es erneut.",
+      "NETWORK_ERROR": "Die Datei wird nicht heruntergeladen. Prüfe deine Verbindung."
     },
     "MARKET_CHART": {
-      "TODAY": "Today",
-      "TODAY_AT": "Today at {hour}",
+      "TODAY": "Heute",
+      "TODAY_AT": "Heute um {hour}",
       "WEEK": {
         "LONG": {
-          "FRI": "Friday",
-          "MON": "Monday",
-          "SAT": "Saturday",
-          "SUN": "Sunday",
-          "TUE": "Tuesday",
-          "THU": "Thursday",
-          "WED": "Wednesday"
+          "FRI": "Freitag",
+          "MON": "Montag",
+          "SAT": "Samstag",
+          "SUN": "Sonntag",
+          "TUE": "Dienstag",
+          "THU": "Donnerstag",
+          "WED": "Mittwoch"
         },
         "SHORT": {
-          "FRI": "FRI",
-          "MON": "MON",
-          "SAT": "SAT",
-          "SUN": "SUN",
-          "TUE": "TUE",
-          "THU": "THU",
-          "WED": "WED"
+          "FRI": "FR",
+          "MON": "MO",
+          "SAT": "SA",
+          "SUN": "SO",
+          "TUE": "DI",
+          "THU": "DO",
+          "WED": "MI"
         }
       },
-      "YESTERDAY_AT": "Yesterday at {hour}"
+      "YESTERDAY_AT": "Gestern um {hour}"
     },
     "MARKET_CHART_HEADER": {
-      "PRICE": "{currency} price",
-      "SHOW_CHART": "Show chart"
+      "PRICE": "{currency} Preis",
+      "SHOW_CHART": "Zeige Graphik"
     },
     "BUTTON_CLIPBOARD": {
-      "DONE": "Copied!",
-      "COPY_TO_CLIPBOARD": "Copy {0} to clipboard",
-      "NOT_SUPPORTED": "Copying to clipboard is not supported"
+      "DONE": "Kopiert!",
+      "COPY_TO_CLIPBOARD": "Kopiere {0} ins die Zwischenablage",
+      "NOT_SUPPORTED": "In die Zischenablage kopieren ist nicht unterstützt."
     },
     "INPUT_ADDRESS": {
       "ERROR": {
-        "NOT_VALID": "The address is not valid",
-        "REQUIRED": "The address is required"
+        "NOT_VALID": "Die Adresse ist nicht gültig",
+        "REQUIRED": "Die Adresse wird benötigt"
       },
-      "KNOWN_ADDRESS": "This wallet is known as \"{address}\"",
-      "LABEL": "Address",
-      "NEO_ADDRESS": "There is a NEO address like this",
-      "QR": "Scan the QR code"
+      "KNOWN_ADDRESS": "Dieses Wallet ist bekannt als \"{address}\"",
+      "LABEL": "Adresse",
+      "NEO_ADDRESS": "Es gibt eine identische NEO Adresse",
+      "QR": "Scanne den QR Code"
     },
     "INPUT_CURRENCY": {
       "ERROR": {
-        "LESS_THAN_MINIMUM": "The minimum amount is {amount}",
-        "NOT_ENOUGH_AMOUNT": "The maximum amount is {amount}",
-        "NOT_VALID": "The amount is not valid",
-        "REQUIRED": "The amount is required"
+        "LESS_THAN_MINIMUM": "Der minimale Betrag ist {amount}",
+        "NOT_ENOUGH_AMOUNT": "Der maximale Betrag ist {amount}",
+        "NOT_VALID": "Der Betrag ist nicht gültig",
+        "REQUIRED": "Der Betrag wird benötigt"
       },
-      "LABEL": "Amount"
+      "LABEL": "Betrag"
     },
     "INPUT_DELEGATE": {
       "ERROR": {
