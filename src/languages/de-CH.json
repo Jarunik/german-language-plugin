@@ -540,7 +540,7 @@
       "PERMISSIONS": {
         "ALERTS": "Erlaubt Zugriff auf die Desktop Wallet Alarme",
         "AUDIO": "Erlaubt Zugriff um Audio innerhalb des Desktop Wallets abzuspielen",
-        "AVATARS": "Plugin enthält benutzerdefinierte Avatare",
+        "AVATARS": "Plugin enthält benutzerdefinierte Avatars",
         "COMPONENTS": "Erlaubt das laden von benutzerdefinierten Komponenten",
         "DIALOGS": "Erlaubt die Benutzung von Datei Dialogen",
         "EVENTS": "Erlaubt Zugriff auf die Desktop Wallet Ereignisse",
@@ -678,7 +678,7 @@
         "SUCCESS": {
           "INSTALLATION": "Das Plugin '{plugin}' wurde erfolgreich installiert und geladen",
           "UPDATE": "Das Plugin '{plugin}' wurde erfolgreich aktualisiert und geladen",
-          "REMOVE": "Das Plugin '{plugin}' wurde eforlgreich entfernt",
+          "REMOVE": "Das Plugin '{plugin}' wurde erfolgreich entfernt",
           "BLACKLIST": "Das Plugin '{plugin}' wurde zur Schwarzen Liste hinzugefügt",
           "RELOAD": "Das Plugin Repository wurde erfolgreiche geladen"
         },
@@ -813,7 +813,7 @@
         "STEP2": {
           "INSTRUCTIONS": {
             "HEADER": "Wallet Verschlüsselung",
-            "TEXT": "Du kannst ein Passwort eingeben um deine Passphrase zu veschlüsseln."
+            "TEXT": "Du kannst ein Passwort eingeben um deine Passphrase zu verschlüsseln."
           },
           "TITLE": "2. Verschlüsselung",
           "PASSWORD": "Wallet Passwort (optional)",
@@ -863,7 +863,7 @@
             "HEADER": "Wallet Verschlüsselung",
             "TEXT": "Gib ein Passwort ein um deine Passphrase zu verschlüsseln."
           },
-          "TITLE": "4. Versschlüsselung",
+          "TITLE": "4. Verschlüsselung",
           "PASSWORD": "Wallet Passwort (optional)",
           "PASSWORD_CONFIRM": "Passwort bestätigen",
           "PASSWORD_WARNING": "Speichern deiner Passphrase kann riskant sein."
@@ -874,7 +874,7 @@
             "TEXT": "Optionally, wähle einen Namen für dein Wallet und du bist fertig."
           },
           "TITLE": "5. Bestätigung",
-          "ADDRESS": "Deine Wallet Addresse und Identifikation",
+          "ADDRESS": "Deine Wallet Adresse und Identifikation",
           "NAME": "Wallet Name (optional)"
         }
       },
@@ -887,118 +887,118 @@
     "PLUGIN_TABLE": {
       "ACTIONS": "Actions",
       "AUTHOR": "Author",
-      "CATEGORY": "Category",
-      "DISABLED": "Disabled",
-      "ENABLED": "Enabled",
+      "CATEGORY": "Kategorie",
+      "DISABLED": "Inaktiv",
+      "ENABLED": "Aktiv",
       "LOGO": "Logo",
       "NAME": "Name",
-      "AVAILABLE": "Not installed",
-      "NO_PLUGINS": "No plugins available",
-      "SIZE": "Size",
+      "AVAILABLE": "Nicht installiert",
+      "NO_PLUGINS": "Keine Plugins verfügbar",
+      "SIZE": "Grösse",
       "STATUS": "Status",
       "VERSION": "Version"
     },
     "PROFILE_LEAVING_CONFIRMATION": {
-      "QUESTION": "Are you sure you want to ignore the changes done to this profile?",
-      "NO": "No, save them",
-      "YES": "Yes, ignore them"
+      "QUESTION": "Bist du sicher dass du die Änderungen an deinem Profil ignorieren willst?",
+      "NO": "Nein, speichern",
+      "YES": "Ja, ignorieren"
     },
     "PROFILE_REMOVAL_CONFIRMATION": {
-      "NOTE": "Although it would remove your wallets, it does not delete any data on the blockchain. You could recover the wallets as long as you have their passphrases",
-      "QUESTION": "Are you sure you want to remove this profile?"
+      "NOTE": "Obwohl das Wallet entfernt wird werden keine Daten von der Blockchain gelöscht. So lange du die korrekt Passphrase hast, kannst du die Wallets wieder herstellen.",
+      "QUESTION": "Willst du das Profil wirklich entfernen?"
     },
     "SELECTION_AVATAR": {
-      "ADDITIONAL_AVATARS": "Additional Avatars",
+      "ADDITIONAL_AVATARS": "Zusätzliche Avatars",
       "AVATARS": "Avatars",
-      "MODAL_HEADER": "Select avatar",
-      "NO_AVATAR": "No Avatar"
+      "MODAL_HEADER": "Avatar auswählen",
+      "NO_AVATAR": "Kein Avatar"
     },
     "SELECTION_BACKGROUND": {
-      "MODAL_HEADER": "Select background",
-      "TEXTURES": "Textures",
+      "MODAL_HEADER": "Hintergrund wählen",
+      "TEXTURES": "Texturen",
       "WALLPAPERS": "Wallpapers"
     },
     "SELECTION_NETWORK": {
-      "MODAL_HEADER": "Networks"
+      "MODAL_HEADER": "Netzwerke"
     },
     "TRANSACTION": {
       "TYPE": {
         "TRANSFER": "Transfer",
-        "SECOND_SIGNATURE": "Second Signature",
-        "DELEGATE_REGISTRATION": "Delegate Registration",
-        "VOTE": "Vote",
-        "UNVOTE": "Unvote",
-        "MULTI_SIGN": "Multisignature Transaction",
-        "MULTI_SIGNATURE": "Multisignature",
+        "SECOND_SIGNATURE": "Zweite Unterschrift",
+        "DELEGATE_REGISTRATION": "Delegierten Registrierung",
+        "VOTE": "Wählen",
+        "UNVOTE": "Abwählen",
+        "MULTI_SIGN": "Mehrfach-Unterschrift",
+        "MULTI_SIGNATURE": "Mehrfach-Unterschrift Registrierung",
         "IPFS": "IPFS",
-        "MULTI_PAYMENT": "Multipayment",
-        "DELEGATE_RESIGNATION": "Delegate Resignation",
+        "MULTI_PAYMENT": "Massenzahlung",
+        "DELEGATE_RESIGNATION": "Delegierten Rücktritt",
         "HTLC_LOCK": "Timelock",
-        "HTLC_CLAIM": "Timelock Claim",
-        "HTLC_REFUND": "Timelock Refund",
-        "BUSINESS_REGISTRATION": "Business Registration",
-        "BUSINESS_RESIGNATION": "Business Resignation",
-        "BUSINESS_UPDATE": "Business Update",
-        "BRIDGECHAIN_REGISTRATION": "Bridgechain Registration",
-        "BRIDGECHAIN_RESIGNATION": "Bridgechain Resignation",
-        "BRIDGECHAIN_UPDATE": "Bridgechain Update"
+        "HTLC_CLAIM": "Timelock Anforderung",
+        "HTLC_REFUND": "Timelock Rückerstattung",
+        "BUSINESS_REGISTRATION": "Geschäfts Registrierung",
+        "BUSINESS_RESIGNATION": "Geschäfts Rücktritt",
+        "BUSINESS_UPDATE": "Geschäfts Aktualisierung",
+        "BRIDGECHAIN_REGISTRATION": "Bridgechain Registrierung",
+        "BRIDGECHAIN_RESIGNATION": "Bridgechain Rücktritt",
+        "BRIDGECHAIN_UPDATE": "Bridgechain Aktualisierung"
       },
       "ERROR": {
         "VALIDATION": {
-          "TRANSFER": "Transfer transaction could not be created",
-          "SECOND_SIGNATURE": "Second Signature transaction could not be created",
-          "DELEGATE_REGISTRATION": "Delegate Registration transaction could not be created",
-          "VOTE": "Vote transaction could not be created",
-          "MULTI_SIGN": "Could not multisign transaction",
-          "MULTI_SIGNATURE": "Multisignature transaction could not be created",
-          "MULTI_PAYMENT": "Multipayment transaction could not be created",
-          "IPFS": "IPFS transaction could not be created",
-          "DELEGATE_RESIGNATION": "Delegate Resignation transaction could not be created",
-          "BUSINESS_REGISTRATION": "Business Registration transaction could not be created",
-          "BUSINESS_RESIGNATION": "Business Resignation transaction could not be created",
-          "BUSINESS_UPDATE": "Business Update transaction could not be created",
-          "BRIDGECHAIN_REGISTRATION": "Bridgechain Registration transaction could not be created",
-          "BRIDGECHAIN_RESIGNATION": "Bridgechain Resignation transaction could not be created",
-          "BRIDGECHAIN_UPDATE": "Bridgechain Update transaction could not be created"
+          "TRANSFER": "Transfer Transaktion konnte nicht erstellt werden",
+          "SECOND_SIGNATURE": "Zweite Unterschrift Transaktion konnte nicht erstellt werden",
+          "DELEGATE_REGISTRATION": "Delegierten Registrierung konnte nicht erstellt werden",
+          "VOTE": "Wahl Transaktion konnte nicht erstellt werden",
+          "MULTI_SIGN": "Konnte die Mehrfach-Unterschrift nicht erstellen",
+          "MULTI_SIGNATURE": "Mehrfach-Unterschrift Registrierung konnte nicht erstellt werden",
+          "MULTI_PAYMENT": "Massenzahlungs Transaktion konnte nicht erstellt werden",
+          "IPFS": "IPFS Transaktion konnte nicht erstellt werden",
+          "DELEGATE_RESIGNATION": "Delegierten Rücktritt Transaktion konnte nicht erstellt werden",
+          "BUSINESS_REGISTRATION": "Geschäfts Registrierung Transaktion konnte nicht erstellt werden",
+          "BUSINESS_RESIGNATION": "Geschäfts Rücktritt Transaktion konnte nicht erstellt werden",
+          "BUSINESS_UPDATE": "Geschäfts Aktualisierung Transaktion konnte nicht erstellt werden",
+          "BRIDGECHAIN_REGISTRATION": "Bridgechain Registration Transaktion konnte nicht erstellt werden",
+          "BRIDGECHAIN_RESIGNATION": "Bridgechain Rücktritt Transaktion konnte nicht erstellt werden",
+          "BRIDGECHAIN_UPDATE": "Bridgechain Aktualisierung Transaktion konnte nicht erstellt werden"
         },
-        "TRANSFER": "Your transaction could not be sent",
-        "SECOND_SIGNATURE": "Second signature could not be registered",
-        "DELEGATE_REGISTRATION": "Could not register as delegate",
-        "VOTE": "Vote could not be registered",
-        "UNVOTE": "Unvote could not be registered",
-        "IPFS": "IPFS could not be created",
-        "MULTI_SIGN": "Could not sign transaction",
-        "MULTI_SIGNATURE": "Multisignature could not be created",
-        "HTLC_LOCK": "Timelock could not be created",
-        "HTLC_CLAIM": "Timelock Claim could not be created",
-        "HTLC_REFUND": "Timelock Refund could not be created",
-        "MULTI_PAYMENT": "Multipayment could not be created",
-        "MULTI_PAYMENT_TO_SELF": "Excluding {amount} sent to itself",
-        "DELEGATE_RESIGNATION": "Delegate resignation was unsuccessful",
-        "BUSINESS_REGISTRATION": "Business registration was unsuccessful",
-        "BUSINESS_RESIGNATION": "Business resignation was unsuccessful",
-        "BUSINESS_UPDATE": "Business update was unsuccessful",
-        "BRIDGECHAIN_REGISTRATION": "Bridgechain registration was unsuccessful",
-        "BRIDGECHAIN_RESIGNATION": "Bridgechain resignation was unsuccessful",
-        "BRIDGECHAIN_UPDATE": "Bridgechain update was unsuccessful",
-        "SAVE_OFFLINE": "Failed to save transaction file: {error}",
-        "LOAD_FROM_FILE": "Failed to load transaction file",
-        "EXPIRED": "Transaction expired before it was processed: {transactionId}",
-        "FEE_TOO_LOW": "Transaction could not be sent because the fee ({fee}) is too low",
-        "NOTHING_SENT": "The transaction could not be sent. Please check your network connection or change peer",
-        "WRONG_NONCE": "The transaction could not be sent. Wrong nonce provided",
-        "NETWORK_NOT_CONFIGURED": "Network not configured",
-        "WALLET_NOT_IMPORTED": "Wallet not imported"
+        "TRANSFER": "Deine Transaktion konnte nicht gesendet werden",
+        "SECOND_SIGNATURE": "Zweite Unterschrift konnte nicht registriert werden",
+        "DELEGATE_REGISTRATION": "Konnte den Delegierten nicht registrieren",
+        "VOTE": "Die Wahl konnte nicht registriert werden",
+        "UNVOTE": "Abwahl konnte nicht registriert werden",
+        "IPFS": "IPFS konnte nicht bestätigt werden",
+        "MULTI_SIGN": "Transaktion konnte nicht unterschrieben werden",
+        "MULTI_SIGNATURE": "Mehrfach-Unterschrift konnte nicht registriert werden",
+        "HTLC_LOCK": "Timelock konnte nicht erstellt werden",
+        "HTLC_CLAIM": "Timelock Anforderung konnte nicht erstellt werden",
+        "HTLC_REFUND": "Timelock Rückzahlung konnte nicht erstellt werden",
+        "MULTI_PAYMENT": "Massenzahlung konnte nicht erstellt werden",
+        "MULTI_PAYMENT_TO_SELF": "Ohne {amount} zu sich selbst gesendet",
+        "DELEGATE_RESIGNATION": "Delegierten Rücktritt ist fehlgeschlagen",
+        "BUSINESS_REGISTRATION": "Geschäfts Registrierung ist fehlgeschlagen",
+        "BUSINESS_RESIGNATION": "Geschäfts Rücktritt ist fehlgeschlagen",
+        "BUSINESS_UPDATE": "Geschäfts Aktualisierung ist fehlgeschlagen",
+        "BRIDGECHAIN_REGISTRATION": "Bridgechain Registrierung ist fehlgeschlagen",
+        "BRIDGECHAIN_RESIGNATION": "Bridgechain Rücktritt ist fehlgeschlagen",
+        "BRIDGECHAIN_UPDATE": "Bridgechain Aktualisierung ist fehlgeschlagen",
+        "SAVE_OFFLINE": "Transaktions Datei konnte nicht gespeichert werden: {error}",
+        "LOAD_FROM_FILE": "Transaktions Datei konnte nicht geladen werden",
+        "EXPIRED": "Transaktion ist vor der Verarbeitung abgelaufen: {transactionId}",
+        "FEE_TOO_LOW": "Transaktion konnte nicht geschickt werden, da die Gebühr ({fee}) zu tief war",
+        "NOTHING_SENT": "Die Transaktion konnte nicht geschickt werden. Bitte prüfe deine Netzwerk Verbindung oder wechsle den Server",
+        "WRONG_NONCE": "Die Transaktion konnte nicht geschickt werden. Die Nonce war falsch.",
+        "NETWORK_NOT_CONFIGURED": "Netzwerk nicht konfiguriert",
+        "WALLET_NOT_IMPORTED": "Wallet nicht importiert"
       },
       "FOOTER_TEXT": {
-        "DELEGATE_REGISTRATION": "Keep in mind that you cannot change the name of your delegate after the registration has been registered on the blockchain.",
-        "DELEGATE_RESIGNATION": "Keep in mind that you cannot restore your delegate after the resignation has been registered on the blockchain.",
-        "BUSINESS_RESIGNATION": "Keep in mind that you cannot restore your business after the resignation has been registered on the blockchain.",
-        "BRIDGECHAIN_RESIGNATION": "Keep in mind that you cannot restore your bridgechain after the resignation has been registered on the blockchain."
+        "DELEGATE_REGISTRATION": "Der Name des Delegierten kann nach der Registrierung nicht mehr geändert werden.",
+        "DELEGATE_RESIGNATION": "Ein Delegierter kann nach dem Rücktritt nicht mehr aktiviert werden.",
+        "BUSINESS_RESIGNATION": "Ein Geschäft kann nach dem Rücktritt nicht mehr aktiviert werden.",
+        "BRIDGECHAIN_RESIGNATION": "Eine Bridgechain kann nach dem Rücktritt nicht mehr aktiviert werden."
       },
       "INFO": {
-        "BROADCASTING": "Your transaction is being broadcast to the network",
-        "BROADCASTING_SLOW": "It looks like it's taking a while to broadcast your transaction. You may close the window and it will continue to send in the background."
+        "BROADCASTING": "Deine Transaktion wurde im Netzwerk publiziert.",
+        "BROADCASTING_SLOW": "Es scheint lange zu dauern deine Transaktion zu publizieren. Du kannst das Fenster schliessen und die Transaktion wird im Hintegrund gesendet."
       },
       "SUCCESS": {
         "TRANSFER": "Your transaction was sent successfully",
