@@ -660,228 +660,228 @@
           "ALL": "Alle",
           "INSTALLED": "Installiert"
         },
-        "NO_SEARCH_RESULTS": "Unfortunately, searching for \"{query}\" returned no results",
-        "NO_RESULTS": "There are no {filter} plugins with the category {category}",
-        "SEARCH": "Search",
-        "CLICK_TO_RELOAD": "Reload the plugin repository",
-        "ALREADY_INSTALLED": "You've already installed this plugin",
+        "NO_SEARCH_RESULTS": "Leider hat die Suche nach \"{query}\" kein Resultat gefunden",
+        "NO_RESULTS": "Es gibt keine {filter} Plugins in der Kategorie {category}",
+        "SEARCH": "Suchen",
+        "CLICK_TO_RELOAD": "Lade das Plugin Repository neu",
+        "ALREADY_INSTALLED": "Du hast diese Plugin bereits installiert",
         "UPDATE": {
-          "AVAILABLE": "Update to latest version ({version})",
-          "NOT_AVAILABLE": "No updates available"
+          "AVAILABLE": "Aktualisiere zur neuesten Version ({version})",
+          "NOT_AVAILABLE": "Es gibt keine Aktualisierungen"
         },
         "ERRORS": {
-          "ALREADY_INSTALLED": "The plugin '{plugin}' is already installed",
-          "DISABLE": "The plugin '{plugin}' could not be disabled: {error}",
-          "ENABLE": "The plugin '{plugin}' could not be enabled: {error}",
-          "FETCH": "The plugin '{plugin}' was installed but could not be loaded"
+          "ALREADY_INSTALLED": "Das Plugin '{plugin}' ist bereits installiert",
+          "DISABLE": "Das Plugin '{plugin}' konnte nicht deaktiviert werden: {error}",
+          "ENABLE": "Das Plugin '{plugin}' konnte nicht aktiviert werden: {error}",
+          "FETCH": "Das Plugin '{plugin}' wurde installiert aber kann nicht geladen werden"
         },
         "SUCCESS": {
-          "INSTALLATION": "The plugin '{plugin}' was installed and loaded successfully",
-          "UPDATE": "The plugin '{plugin}' was updated and reloaded successfully",
-          "REMOVE": "The plugin '{plugin}' was removed successfully",
-          "BLACKLIST": "The plugin '{plugin}' was added to the blacklist",
-          "RELOAD": "The plugin repository was reloaded successfully"
+          "INSTALLATION": "Das Plugin '{plugin}' wurde erfolgreich installiert und geladen",
+          "UPDATE": "Das Plugin '{plugin}' wurde erfolgreich aktualisiert und geladen",
+          "REMOVE": "Das Plugin '{plugin}' wurde eforlgreich entfernt",
+          "BLACKLIST": "Das Plugin '{plugin}' wurde zur Schwarzen Liste hinzugefügt",
+          "RELOAD": "Das Plugin Repository wurde erfolgreiche geladen"
         },
-        "DISCLAIMER": "<b>Disclaimer:</b> The availability of this plugin in the ARK Desktop Wallet does not mean that either ARK.io or ARK SCIC is directly involved in the development or affiliated with the developer providing this plugin. By installing it on your wallet, you assume every responsibility.",
-        "REPORT": "Report this plugin",
-        "BLACKLISTED": "This plugin is already blacklisted",
-        "VERSION_MISMATCH": "This plugin is not compatible with your wallet version"
+        "DISCLAIMER": "<b>Haftungsausschluss:</b> Die Verfügbarkeit dieses Plugins im ARK Desktop Wallet bedeutet nicht dass ARK.io oder ARK SCIC in der Entwicklung involviert oder mit den Entwicklern in Verbindung steht. Mit der Installation in deinem Wallet übernimmst du alleine die volle Haftung und volle Verantwortung.",
+        "REPORT": "Melde diese Plugin",
+        "BLACKLISTED": "Diese Plugin ist bereits auf der Schwarzen Liste",
+        "VERSION_MISMATCH": "Dieses Plugin ist nicht kompatibel mit deiner Wallet Version"
       },
       "PROFILE_ALL": {
-        "HEADER": "My profiles",
-        "ADD_PROFILE": "Add profile",
-        "EDIT_PROFILE": "Edit profile",
-        "REMOVE_PROFILE": "Remove this profile",
-        "SELECT_PROFILE": "Use this profile"
+        "HEADER": "Meine Profile",
+        "ADD_PROFILE": "Profil hinzufügen",
+        "EDIT_PROFILE": "Profil bearbeiten",
+        "REMOVE_PROFILE": "Profil entfernen",
+        "SELECT_PROFILE": "Wähle dieses Profil"
       },
       "PROFILE_NEW": {
         "STEP1": {
           "INSTRUCTIONS": {
-            "HEADER": "Create a profile",
-            "TEXT": "Enter your name or nickname and select your preferred language and default currency."
+            "HEADER": "Neues Profil erzeugen",
+            "TEXT": "Gib deine Namen oder dein Pseudonym ein, wähle deine bevorzugte Sprache und deine Währung."
           },
-          "NAME": "Profile name",
-          "TITLE": "1. Profile details",
-          "AVATAR": "Select your favorite avatar or the first letter of your profile name"
+          "NAME": "Profil Name",
+          "TITLE": "1. Profil Details",
+          "AVATAR": "Wähle deinen Avatar oder den ersten Buchstaben deines Profil Namens"
         },
         "STEP2": {
           "INSTRUCTIONS": {
-            "HEADER": "Network selection",
-            "TEXT": "Choose the network of this profile."
+            "HEADER": "Netzwerk wählen",
+            "TEXT": "Wähle das Netzwerk für dein Profil."
           },
-          "CUSTOM_NETWORK": "or you can choose a custom network",
-          "CUSTOM_NETWORK_EXPLAIN": "You can select your custom network or choose any of the available networks.",
-          "NAME": "Profile name",
-          "TITLE": "2. Network"
+          "CUSTOM_NETWORK": "oder wähle ein benutzerdefiniertes Netzwerk",
+          "CUSTOM_NETWORK_EXPLAIN": "Du kannst ein benutzerdefiniertes Netzwerk wählen oder eines der Verfügbaren.",
+          "NAME": "Profil Name",
+          "TITLE": "2. Netzwerk"
         },
         "STEP3": {
           "INSTRUCTIONS": {
-            "HEADER": "Appearance",
-            "TEXT": "Customize this application by selecting one of our themes and backgrounds."
+            "HEADER": "Anzeige",
+            "TEXT": "Individualisiere die Applikation durch die Wahl eines Themes und des Hintergrund."
           },
-          "MARKET_CHART": "Choose to display the price chart on the dashboard or not",
-          "THEME": "Choose theme",
-          "BACKGROUND": "Select your favorite background",
-          "NAME": "Profile name",
-          "TITLE": "3. Appearance"
+          "MARKET_CHART": "Wähle ob die Preis Graphik auf dem Dashboard angezeigt werden soll oder nicht",
+          "THEME": "Wähle ein Theme",
+          "BACKGROUND": "Wähle einen Hintergrund",
+          "NAME": "Profil Name",
+          "TITLE": "3. Anzeige"
         }
       },
       "PROFILE_EDITION": {
         "ERROR": {
-          "DUPLICATE_PROFILE": "A profile already exists with that name"
+          "DUPLICATE_PROFILE": "Ein Profil mit diesem Namen existiert bereits"
         },
         "TAB_PROFILE": {
           "INSTRUCTIONS": {
-            "HEADER": "Edit this profile",
-            "TEXT": "Here you can modify your name or nickname, select your preferred language and default currency, the network and avatar."
+            "HEADER": "Bearbeite dieses Profil",
+            "TEXT": "Hier kannst du deinen Namen oder dein Pseudonym ändern. Wähle die gewünschte Sprache, Standard Währung, das Netzwerk und den Avatar."
           },
-          "TITLE": "Profile"
+          "TITLE": "Profil"
         },
         "TAB_DESIGN": {
           "INSTRUCTIONS": {
-            "HEADER": "Customize this wallet",
-            "TEXT": "Here you can choose the default theme (light or dark) and the background."
+            "HEADER": "Wallet anpassen",
+            "TEXT": "Hier kannst du das Standard Theme (hell oder dunkel) und den Hintergrund anpassen."
           },
-          "TITLE": "Wallet design"
+          "TITLE": "Wallet Design"
         },
         "TAB_PLUGINS": {
           "INSTRUCTIONS": {
-            "HEADER": "Plugin settings",
-            "TEXT": "Here you can adjust the settings of the Plugin Manager."
+            "HEADER": "Plugin Einstellungen",
+            "TEXT": "Hier kannst du die Einstellungen des Plugin Managers anpassen."
           },
           "TITLE": "Plugins"
         },
         "ADVANCED_MODE": {
-          "DECLINE": "I Decline",
-          "ACCEPT": "I Accept",
-          "QUESTION": "By enabling Advanced Mode you hereby assume the risk associated with downloading files and installing said files from a direct URL link. The aforementioned links have neither been tested nor approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of these URLs. We are not responsible for any consequences which may occur from downloading, viewing, or installing files directly from a URL or feature that is activated via toggling on Advanced Mode. ARK.io and ARK SCIC shall bear no liability for any loss suffered by users who bypass certain measures by toggling on Advanced Mode. By clicking “I Accept” you acknowledge that enabling Advanced Mode may result in you downloading, viewing, or installing content that may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
-          "TITLE": "Advanced Mode Disclaimer"
+          "DECLINE": "Ablehnen",
+          "ACCEPT": "Akzeptieren",
+          "QUESTION": "Haftungsausschluss für extern geladene Inhalte: By enabling Advanced Mode you hereby assume the risk associated with downloading files and installing said files from a direct URL link. The aforementioned links have neither been tested nor approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of these URLs. We are not responsible for any consequences which may occur from downloading, viewing, or installing files directly from a URL or feature that is activated via toggling on Advanced Mode. ARK.io and ARK SCIC shall bear no liability for any loss suffered by users who bypass certain measures by toggling on Advanced Mode. By clicking “I Accept” you acknowledge that enabling Advanced Mode may result in you downloading, viewing, or installing content that may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
+          "TITLE": "Fortgeschrittener Modus Haftungsausschluss"
         }
       },
       "WALLET": {
-        "BUSINESS": "Business",
-        "TRANSACTIONS": "Transactions",
-        "DELEGATES": "Delegates",
+        "BUSINESS": "Geschäfte",
+        "TRANSACTIONS": "Transaktionen",
+        "DELEGATES": "Delegierte",
         "IPFS": "IPFS",
-        "MULTI_SIGNATURE": "Multisignature",
-        "STATISTICS": "Statistics",
-        "SIGN_VERIFY": "Sign",
-        "PURCHASE": "Purchase {ticker}"
+        "MULTI_SIGNATURE": "Mehrfach Unterschriften",
+        "STATISTICS": "Statistiken",
+        "SIGN_VERIFY": "Unterschrift",
+        "PURCHASE": "Kauf {ticker}"
       },
       "WALLET_EXCHANGE": {
         "CHANGELLY_TERMS": {
-          "TITLE": "Purchase {ticker} directly within ARK Desktop Wallet with our Changelly integration",
+          "TITLE": "Kaufe {ticker} direkt im Ark Desktop Wallet mit der Changelly integration",
           "CONTENT": "Changelly lets you exchange other cryptocurrencies into {ticker} and has an option to buy {ticker} directly with your credit or debit cards.",
           "CONFIRMATION": "I have read and I agree with the {terms} and the {privacy} from Changelly. By clicking {button}, I acknowledge and understand that my transaction may trigger AML/KYC verification according to Changelly {kyc}.",
-          "TERMS_OF_USE": "terms of use",
-          "PRIVACY_POLICY": "privacy policy",
+          "TERMS_OF_USE": "Nutzungsbedingungen",
+          "PRIVACY_POLICY": "Datenschutzrichtlinien",
           "KYC": "AML/KYC"
         }
       },
       "WALLET_ALL": {
         "LEDGER": {
-          "CACHE": "Cache ledger wallets?",
-          "CACHE_INFO": "Cache wallets from your ledger to speed up loading when first connected",
-          "ADDITIONAL": "Load Additional Ledger Wallets",
-          "OPTIONS": "Ledger Options"
+          "CACHE": "Puffern der Ledger Wallets?",
+          "CACHE_INFO": "Puffere Wallet von Ledger um das erste Laden zu beschleunigen",
+          "ADDITIONAL": "Lade zusätzliche Ledger Wallets",
+          "OPTIONS": "Ledger Optionen"
         },
-        "CREATE_WALLET": "Create Wallet",
-        "DELETE_WALLET": "Delete this wallet",
-        "EXPORT_WALLETS": "Export Wallets",
-        "HEADER": "My wallets",
-        "IMPORT_WALLET": "Import Wallet",
-        "LOADING_LEDGER": "Loading Ledger wallets...",
-        "SHOW_WALLET": "Show wallet",
-        "TOTAL_BALANCE": "Total balance",
-        "ADDRESS": "Address",
+        "CREATE_WALLET": "Wallet erzeugen",
+        "DELETE_WALLET": "Wallet löschen",
+        "EXPORT_WALLETS": "Wallet exportieren",
+        "HEADER": "Meine Wallets",
+        "IMPORT_WALLET": "Wallet importieren",
+        "LOADING_LEDGER": "Lade Ledger Wallets...",
+        "SHOW_WALLET": "Wallet anzeigen",
+        "TOTAL_BALANCE": "Totaler Kontostand",
+        "ADDRESS": "Adresse",
         "NAME": "Name",
-        "VOTING_FOR": "Voting for",
-        "DELEGATE_NOT_ACTIVE": "{delegate} ({rank}) is not an active delegate",
-        "BALANCE": "Balance",
-        "DELETE": "Delete"
+        "VOTING_FOR": "Wählt",
+        "DELEGATE_NOT_ACTIVE": "{delegate} ({rank}) ist kein aktiver Delegierter",
+        "BALANCE": "Kontostand",
+        "DELETE": "Löschen"
       },
       "WALLET_IMPORT": {
         "STEP1": {
           "INSTRUCTIONS": {
-            "HEADER": "Import Wallet",
-            "TEXT": "Fill in the passphrase of your wallet. You can fill in the address first, to ensure that it matches the given passphrase."
+            "HEADER": "Wallet importieren",
+            "TEXT": "Geb die Passphrase für dein Wallet ein. Du kannst die Adresse zuerst eingeben, damit die die Übereinstimmung mit der Passphrase sicherstellen kannst."
           },
-          "TITLE": "1. Import Wallet",
-          "ONLY_ADDRESS": "Use the address only",
-          "ONLY_PASSPHRASE": "Use the passphrase only"
+          "TITLE": "1. Wallt importieren",
+          "ONLY_ADDRESS": "Nur die Adresse benutzen",
+          "ONLY_PASSPHRASE": "Nur die Passphrase benutzen"
         },
         "STEP2": {
           "INSTRUCTIONS": {
-            "HEADER": "Wallet encryption",
-            "TEXT": "Enter a password you would like to use in order to encrypt your passphrase."
+            "HEADER": "Wallet Verschlüsselung",
+            "TEXT": "Du kannst ein Passwort eingeben um deine Passphrase zu veschlüsseln."
           },
-          "TITLE": "2. Encryption",
-          "PASSWORD": "Wallet password (optional)",
-          "PASSWORD_CONFIRM": "Confirm password",
-          "PASSWORD_WARNING": "Storing your passphrase can bring risks."
+          "TITLE": "2. Verschlüsselung",
+          "PASSWORD": "Wallet Passwort (optional)",
+          "PASSWORD_CONFIRM": "Passwort bestätigen",
+          "PASSWORD_WARNING": "Speichern der Passphrase kann riskant sein."
         },
         "STEP3": {
           "INSTRUCTIONS": {
-            "HEADER": "Wallet configuration",
-            "TEXT": "Optionally, choose a name for you wallet and you are done."
+            "HEADER": "Wallet Konfiguration",
+            "TEXT": "Freiwillig, wähle einen Namen für dein Wallet und du bist fertig."
           },
-          "TITLE": "3. Confirmation",
-          "ADDRESS": "Wallet address",
-          "NAME": "Wallet name (optional)"
+          "TITLE": "3. Bestätigung",
+          "ADDRESS": "Wallet Adresse",
+          "NAME": "Wallet Name (optional)"
         },
-        "FAILED": "Failed to import wallet"
+        "FAILED": "Fehler beim importieren des Wallet"
       },
       "WALLET_NEW": {
         "STEP1": {
           "INSTRUCTIONS": {
-            "HEADER": "New wallet",
-            "TEXT_BEFORE_BUTTON": "Select one of these freshly generated wallets. If you do not like them, click on the",
-            "TEXT_AFTER_BUTTON": "button to generate others."
+            "HEADER": "Neues Wallet",
+            "TEXT_BEFORE_BUTTON": "Wähle eines dieser frisch generieren Wallets. Wenn sie dir nicht gefallen kannst du auf den",
+            "TEXT_AFTER_BUTTON": "button drücken um Neue zu generieren."
           },
-          "TITLE": "1. Choose wallet"
+          "TITLE": "1. Walle wählen"
         },
         "STEP2": {
           "INSTRUCTIONS": {
-            "HEADER": "Your personal key",
-            "TEXT": "Be sure to save your passphrase securely. Do not show this passphrase to anyone."
+            "HEADER": "Dein persönlicher Schlüssel",
+            "TEXT": "Speichere deine Passphrase sicher. Zeig diese Passphrase niemanden."
           },
           "TITLE": "2. Backup"
         },
         "STEP3": {
           "INSTRUCTIONS": {
-            "HEADER": "Passphrase confirmation",
-            "TEXT": "Type {words} from your passphrase to verify the new account.",
-            "ALL_WORDS": "all the words",
-            "WORDS": "the words {words}"
+            "HEADER": "Passphrase Bestätigung",
+            "TEXT": "Schreib {words} deiner Passphrase um dein neuess Konto zu verifizieren.",
+            "ALL_WORDS": "alle Wörter",
+            "WORDS": "die Wörter {words}"
           },
-          "TITLE": "3. Verification",
-          "CHECK_ENTIRE_PASSPHRASE": "Check the entire passphrase",
-          "VERIFY_ALL_WORDS": "Verify each passphrase word"
+          "TITLE": "3. Verifikation",
+          "CHECK_ENTIRE_PASSPHRASE": "Prüfe die gesamte Passphrase",
+          "VERIFY_ALL_WORDS": "Verifiziere jedes Passphrase Wort"
         },
         "STEP4": {
           "INSTRUCTIONS": {
-            "HEADER": "Wallet encryption",
-            "TEXT": "Enter a password you would like to use in order to encrypt your passphrase."
+            "HEADER": "Wallet Verschlüsselung",
+            "TEXT": "Gib ein Passwort ein um deine Passphrase zu verschlüsseln."
           },
-          "TITLE": "4. Encryption",
-          "PASSWORD": "Wallet password (optional)",
-          "PASSWORD_CONFIRM": "Confirm password",
-          "PASSWORD_WARNING": "Storing your passphrase can bring risks."
+          "TITLE": "4. Versschlüsselung",
+          "PASSWORD": "Wallet Passwort (optional)",
+          "PASSWORD_CONFIRM": "Passwort bestätigen",
+          "PASSWORD_WARNING": "Speichern deiner Passphrase kann riskant sein."
         },
         "STEP5": {
           "INSTRUCTIONS": {
-            "HEADER": "Wallet configuration",
-            "TEXT": "Optionally, choose a name for you wallet and you are done."
+            "HEADER": "Wallet Konfiguration",
+            "TEXT": "Optionally, wähle einen Namen für dein Wallet und du bist fertig."
           },
-          "TITLE": "5. Confirmation",
-          "ADDRESS": "Your wallet address and identicon",
-          "NAME": "Wallet name (optional)"
+          "TITLE": "5. Bestätigung",
+          "ADDRESS": "Deine Wallet Addresse und Identifikation",
+          "NAME": "Wallet Name (optional)"
         }
       },
       "WALLET_SHOW": {
-        "NO_VOTE": "Wallet hasn't voted",
-        "ADD_CONTACT": "Add to contacts",
-        "VOTING_FOR": "Voting for {delegate}"
+        "NO_VOTE": "Wallet hat nicht gewählt",
+        "ADD_CONTACT": "Zu Kontakten hinzufügen",
+        "VOTING_FOR": "Wählt für {delegate}"
       }
     },
     "PLUGIN_TABLE": {
