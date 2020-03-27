@@ -49,11 +49,11 @@
       "FAILED_UPDATE": "Fehler beim Aktualisieren von '{name}'. Grund: {reason}",
       "FAILED_FETCH": "Fehler beim Abrufen von {name}. Grund: '{msg}'.",
       "FETCH": "Abrufen",
-      "FILTER_BLACKLISTED_PLUGINS": "Filtern von Plugins auf der schwarzen Liste",
+      "FILTER_BLACKLISTED_PLUGINS": "Filtern von Plugins der schwarzen Liste",
       "FINISH": "Abschliessen",
       "HIDE_WALLET_BUTTON_TEXT": "Button Texte ausblenden",
       "INITIALIZING": "Initialisieren...",
-      "IS_MARKET_CHART_ENABLED": "Preisgraphik auf dem Dashboard",
+      "IS_MARKET_CHART_ENABLED": "Preisgraphik auf dem Dashboard anzeigen",
       "LANGUAGE": "Sprache der Applikation",
       "LEDGER": "Ledger",
       "LEDGER_WALLET": "Das ist ein Ledger Wallet",
@@ -69,7 +69,7 @@
       "PROFILE_NAME": "Profil Name",
       "REMOVE": "Entfernen",
       "SAVE": "Speichern",
-      "SIZE": "Grösse",
+      "SIZE": "Größe",
       "SKIP": "Überspringen",
       "START": "Start",
       "THEME": "Theme",
@@ -85,7 +85,7 @@
       "WILL": "wird",
       "WALLET": "Wallet",
       "X_OF_Y": "{0} von {1}",
-      "ADVANCED_MODE": "Fortgeschrittenen Modus",
+      "ADVANCED_MODE": "Fortgeschrittener Modus",
       "DEFAULT_CHOSEN_FEE": "Standard Gebühren Typ"
     },
     "ANNOUNCEMENTS": {
@@ -95,29 +95,29 @@
     },
     "INTRODUCTION": {
       "WELCOME": {
-        "TITLE": "Welcome to {APP}",
-        "SAFETY_MESSAGE": "Please take a few moments to read the next few screens for your own safety.",
-        "FUNDS_WARNING": "Your funds could be unrecoverable if you do not pay close attention to these warnings."
+        "TITLE": "Willkommen bei {APP}",
+        "SAFETY_MESSAGE": "Bitte nimm dir für deine eigene Sicherheit ein paar Momente Zeit um die nächsten Seiten zu lesen.",
+        "FUNDS_WARNING": "Dein Vermögen könnte verloren gehen wenn du die Warnungen nicht genau beachtest."
       },
       "POWER": {
-        "TITLE": "Your Power",
-        "FINANCE": "The most important thing for users to know about cryptocurrencies is that they completely reverse the commonly-accepted model of how finance works.",
-        "BANKS": "In traditional finance, you give up direct control of your money to a bank. Because banks have control over your money, they can take actions on your behalf, such as refunding transactions and resetting your login info.",
-        "CRYPTO": "Cryptocurrencies take that power and give it to you directly. Using nothing more than your passphrase, you can control exactly when, where and how your money is kept and spent.",
-        "RESPONSIBILITY": "However, in the words of Uncle Ben Parker, with great power comes great responsibility."
+        "TITLE": "Deine Macht",
+        "FINANCE": "Das Wichtigste was du über Crypto-Währungen wissen musst: Sie stellen herkömmlichen Finanzmodell komplett auf den Kopf.",
+        "BANKS": "In traditionellen Finanzgeschäften übergibst die direkte Kontrolle über dein Geld an eine Bank. Da die Banken dein Geld kontrollieren, können sie an deiner statt handeln. Sie für dich Geld überweisen oder Login Informationen zurücksetzen.",
+        "CRYPTO": "Crypto-Währungen geben die Verantwortung direkt and dich. Alleine mit deiner Passphrase kannst du kontrollieren wann und wo dein Geld verwahrt oder ausgegeben wird.",
+        "RESPONSIBILITY": "Aber, wie schon Ben Parker gesagt hat: Mit grosser Macht kommt auch grosse Verantwortung."
       },
       "DUTY": {
-        "TITLE": "Your Duty",
-        "CONTROL": "The blockchain industry is built to be censorship resistant. That means no one controls your account but you. This design brings the peace of mind that no central authority can confiscate, freeze, or manipulate your funds at any time. There is also no central location for personal data or funds to be hacked.",
-        "OWNER": "This also brings greater responsibility for you, the account owner.",
+        "TITLE": "Deine Pflicht",
+        "CONTROL": "Die Blockchain Industrie vermeidet Zensur. Das heisst, dass nur du selbst kein Konto kontrollierst. Dieses Design bringt dir jederzeit die Sicherheit, dass keine zentrale Instanz dein Vermögen konfiszieren, blockieren oder manipulieren kann. Es gibt auch keine zentrale Stelle an welcher persönliche Daten oder Vermögen gestohlen werden kann.",
+        "OWNER": "Die bringt aber auch zusätzliche Pflichten für dich als Konto Inhaber.",
         "WARNING": {
-          "ACCOUNT": "Unlike your traditional bank account, {CANNOT_RESTORE}.",
-          "CANNOT_RESTORE": "lost passwords, passphrases or stolen funds cannot be restored by the delegates, ARK.io team, or anyone else"
+          "ACCOUNT": "Anders als bein deinem herkömmlichen Bank Konto, {CANNOT_RESTORE}.",
+          "CANNOT_RESTORE": "verloren Passswörter, Passphrases oder gestohlene Vermögen können in keiner Weise durch Delegierte, dem ARK.io Team oder sonst jemanden wiederhergestellt werden"
         },
-        "SECURITY": "The security of your account is solely up to you."
+        "SECURITY": "Die Sicherheit deines Kontos ist komplett in deiner Verantwortung."
       },
       "RESPONSIBILITY": {
-        "TITLE": "Your Responsibility",
+        "TITLE": "Deine Verantwortung",
         "STORAGE": {
           "EXPLANATION": "The {PASSPHRASE} of each wallet address is able to sign transactions and move funds. This means if your computer dies but you have your passphrase, you can still access your funds. The ARK Desktop Wallet has an additional feature that lets you set an {ENCRYPTED} as well, for easier management. If your computer dies, you cannot use the encrypted password to access your funds from a different machine. {NEED}.",
           "PASSPHRASE": "passphrase",

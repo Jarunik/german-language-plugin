@@ -6,6 +6,8 @@
 
 Install this plugin directly through the Plugins Manager of the Desktop Wallet. Alternatively you can clone or [download](https://github.com/jarunik/german-language-plugin/archive/master.zip) this repository and unzip it into `~/.ark-desktop/plugins/`.
 
+Don't forget to switch the language in your profile to activate the translation.
+
 ## Credits
 
 - [Jarunik](https://github.com/jarunik)

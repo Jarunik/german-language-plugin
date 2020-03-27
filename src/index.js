@@ -1,9 +1,9 @@
 module.exports = {
   getLanguages () {
     return {
-      'de-DE': {
-        languagePath: 'languages/de-DE.json',
-        name: 'German'
+      'de-CH': {
+        languagePath: 'languages/de-CH.json',
+        name: 'Swiss Standard German'
       }
     }
   }
