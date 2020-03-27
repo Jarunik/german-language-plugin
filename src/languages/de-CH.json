@@ -457,42 +457,42 @@
     },
     "MODAL_QR_SCANNER": {
       "ERROR": {
-        "NOT_ALLOWED": "We need access to the camera to scan a QR code",
-        "NOT_FOUND": "We were unable to find a camera",
-        "NOT_SUPPORTED": "The page is not served over a secure connection (https)",
-        "NOT_READABLE": "We are unable to read the camera stream, maybe it is already in use?",
-        "OVERCONSTRAINED": "It seems that we were unable to find a correct camera. This might be an issue with the constraints we expect.",
-        "STREAM": "It seems that you are using an unsupported browser. That is very curious.."
+        "NOT_ALLOWED": "Wir benötigen Zugriff zur Kamera um den QR code zu scannen",
+        "NOT_FOUND": "Wir haben keine Kamera gefunden",
+        "NOT_SUPPORTED": "Diese Seite kann nicht über eine sichere Verbindung (https) benutzt werden",
+        "NOT_READABLE": "Wir können keine Daten von der Kamera empfangen. Vielleicht wird sie bereits benutzt?",
+        "OVERCONSTRAINED": "Wir können keine korrekte Kamera finden. Eventuell sind die erwarteten Bedingungen nicht erfüllt.",
+        "STREAM": "Sie scheinen einen nicht unterstützten Browser zu benutzen. Sehr merkwürdig..."
       },
-      "LOADING": "Loading camera",
-      "INSTRUCTION": "Please hold a QR code in front of the camera",
+      "LOADING": "Lade Kamera",
+      "INSTRUCTION": "Bitte halten sie den QR Code vor die Kamera",
       "TITLE": "QR Scanner",
-      "DECODE_FAILED": "Failed to decode data: {data}"
+      "DECODE_FAILED": "Daten könnten nicht entschlüsselt werden: {data}"
     },
     "MODAL_LOADER": {
-      "CLOSE_WARNING": "It looks like something went wrong. You may close the window but this could cause adverse effects."
+      "CLOSE_WARNING": "Da ist was schiefgegangen. Sie können das Fenster schliessen. Dies könnte sich aber nachteilig auswirken."
     },
     "MODAL_NETWORK": {
       "NAME": "Name",
-      "DESCRIPTION": "Description",
+      "DESCRIPTION": "Beschreibung",
       "SEED_SERVER": "Seed Server",
       "NETHASH": "Nethash",
       "TOKEN": "Token",
       "SYMBOL": "Symbol",
       "VERSION": "Version",
       "EXPLORER": "Explorer",
-      "KNOWN_WALLETS_URL": "Known Wallets URL",
-      "EPOCH": "Epoch",
+      "KNOWN_WALLETS_URL": "Bekannte Wallets URL",
+      "EPOCH": "Epoche",
       "WIF": "WIF",
       "SLIP44": "Slip44",
-      "ACTIVE_DELEGATES": "Active Delegates",
-      "ADDRESS_VERSION_MISSING": "Address Version was missing - please check your wallets",
-      "MARKET_TICKER": "Market Ticker (Optional)",
-      "FAILED_FETCH": "Failed to fetch network information",
-      "NETWORK_IN_USE": "This network is in use by one or more profiles and cannot be removed",
-      "DEFAULT_NETWORK_NO_DELETE": "This is a default network and cannot be deleted",
-      "VALIDATING_SEED": "Validating Seed Server details...",
-      "SEED_VALIDATE_FAILED": "Failed to connect to seed server",
+      "ACTIVE_DELEGATES": "Aktive Delegierte",
+      "ADDRESS_VERSION_MISSING": "Address Version fehlt - bitte prüfen sie ihre Wallets",
+      "MARKET_TICKER": "Markt Ticker (Optional)",
+      "FAILED_FETCH": "Fehler beim laden der Netzwerk information",
+      "NETWORK_IN_USE": "Dieses Netzwerk wird noch von einem oder mehreren Profilen benutzt und kann deshalb nicht entfernt werden",
+      "DEFAULT_NETWORK_NO_DELETE": "Das Standard Netzwerk kann nicht gelöscht werden",
+      "VALIDATING_SEED": "Validiere Seed Server Details...",
+      "SEED_VALIDATE_FAILED": "Fehler beim verbinden mit dem Seed Server",
       "PLACEHOLDER": {
         "EXPLORER": "http://explorer.io",
         "SEED_SERVER": "http://1.1.1.1:4002",
@@ -500,165 +500,165 @@
       }
     },
     "MODAL_NETWORK_SELECTION": {
-      "TITLE": "Networks"
+      "TITLE": "Netzwerke"
     },
     "MODAL_PEER": {
-      "CANCEL": "Cancel",
-      "CONNECT": "Connect",
-      "HOST": "Protocol + IP / Hostname",
+      "CANCEL": "Abbrechen",
+      "CONNECT": "Verbinden",
+      "HOST": "Protokoll + IP / Host Name",
       "PORT": "Port",
-      "VALIDATING": "Validating peer details...",
+      "VALIDATING": "Validiere Server Details...",
       "PLACEHOLDER": {
         "HOST": "http://1.2.3.4",
         "PORT": "4003"
       }
     },
     "MODAL_PLUGIN_MANAGE_BLACKLIST": {
-      "CLOSE": "Close",
-      "EMPTY": "There are no plugins on your blacklist",
-      "REMOVE_ALL": "Remove all",
-      "TITLE": "Plugin blacklist"
+      "CLOSE": "Schliessen",
+      "EMPTY": "Es gibt keine Plugins in der Schwarze Liste",
+      "REMOVE_ALL": "Alle entfernen",
+      "TITLE": "Plugin Schwarze Liste"
     },
     "MODAL_PLUGIN_DETAILS": {
-      "INSTALL": "Install",
+      "INSTALL": "Installieren",
       "KEYWORDS": "Keywords",
-      "SHOW_PERMISSIONS": "Show permissions"
+      "SHOW_PERMISSIONS": "Permissions anzeigen"
     },
     "MODAL_PLUGIN_INSTALL": {
-      "CANCEL": "Cancel",
-      "DOWNLOADED": "Downloaded {plugin}",
-      "DOWNLOADING": "Downloading {plugin}",
-      "INSTALL": "Install now",
-      "UPDATE": "Update now",
-      "UNKNOWN_ERROR": "Unknow error. Close this window and try again."
+      "CANCEL": "Abbrechen",
+      "DOWNLOADED": "{plugin} geladen",
+      "DOWNLOADING": "Lade {plugin}",
+      "INSTALL": "Jetzt installieren",
+      "UPDATE": "Jetzt aktualisieren",
+      "UNKNOWN_ERROR": "Unbekanter Fehler. Schliesse dieses Fenster und versuche es erneut."
     },
     "MODAL_PLUGIN_PERMISSIONS": {
-      "ALTERNATIVE_TITLE": "This plugin needs the following permissions",
-      "BACK": "Back",
-      "DOWNLOAD": "Download now",
+      "ALTERNATIVE_TITLE": "Dieses Plugin benötigt die folgenden Permissions",
+      "BACK": "Zurück",
+      "DOWNLOAD": "Jetzt laden",
       "TITLE": "Permissions",
       "PERMISSIONS": {
-        "ALERTS": "Allows access to the Desktop Wallet alerts",
-        "AUDIO": "Allows access to play audio from within the Desktop Wallet",
-        "AVATARS": "Plugin contains custom avatars",
-        "COMPONENTS": "Allows loading custom components",
-        "DIALOGS": "Allows using file dialogs",
-        "EVENTS": "Allows access to the Desktop Wallet events",
-        "HTTP": "Allows performing external web requests",
-        "MENU_ITEMS": "Allows adding custom menu items to the Desktop Wallet sidebar",
-        "MESSAGING": "Allows WebFrames access to a one-way messaging system",
-        "PEER_ALL": "Allows access to the peer discovery",
-        "PEER_CURRENT": "Allows access to the currently connected peer",
-        "PUBLIC": "Allows navigation to wallet routes and provides access to the Font Awesome icon set",
-        "PROFILE_ALL": "Allows access to all available profiles",
-        "PROFILE_CURRENT": "Allows access to the currently active profile",
-        "ROUTES": "Allows loading additional routes into the Desktop Wallet",
-        "STORAGE": "Allows storing data within the Desktop Wallet, using key-value pairs",
-        "THEMES": "Allows loading additional custom themes for the Desktop Wallet",
-        "LANGUAGES": "Allows loading additional languages for the Desktop Wallet",
-        "TIMERS": "Allows using timeouts and intervals",
-        "UI_COMPONENTS": "Allows access to the standard Desktop Wallet components used throughout",
-        "UTILS": "Allows using utilities such as the BigNumber type and dayjs",
-        "WALLET_TABS": "Allows showing an additional tab/page on the Wallet screen",
-        "WEBFRAME": "Allows showing remote URL pages within a frame",
-        "WEBSOCKET": "Allows connections to websockets"
+        "ALERTS": "Erlaubt Zugriff auf die Desktop Wallet Alarme",
+        "AUDIO": "Erlaubt Zugriff um Audio innerhalb des Desktop Wallets abzuspielen",
+        "AVATARS": "Plugin enthält benutzerdefinierte Avatare",
+        "COMPONENTS": "Erlaubt das laden von benutzerdefinierten Komponenten",
+        "DIALOGS": "Erlaubt die Benutzung von Datei Dialogen",
+        "EVENTS": "Erlaubt Zugriff auf die Desktop Wallet Ereignisse",
+        "HTTP": "Erlaubt externen Web Zugriff",
+        "MENU_ITEMS": "Erlaubt hinzufügen von benutzerdefinierten Menu Einträge zur Desktop Wallet Rand Navigation",
+        "MESSAGING": "Erlaubt Zugriff auf WebFrames für Einweg Nachrichten Systeme",
+        "PEER_ALL": "Erlaubt Zugriff für Server Auffindung",
+        "PEER_CURRENT": "Erlaubt Zugriff auf die momentan verbundenen Server",
+        "PUBLIC": "Erlaubt navigieren der Wallet Routen und gibt Zugriff auf Font Awesome Icon sets",
+        "PROFILE_ALL": "Erlaubt den Zugriff auf alle verfügbaren Profile",
+        "PROFILE_CURRENT": "Erlaubt Zugriff auf das aktuell aktive Profil",
+        "ROUTES": "Erlaubt das Laden von zusätzlichen Routen in das Desktop Wallet",
+        "STORAGE": "Erlaubt das Speichern von Daten innerhalb des Desktop Wallet mit Hilfe von Schlüssel-Wert Paaren",
+        "THEMES": "Erlaubt das Laden von zusätzlichen Themes für das Desktop Wallet",
+        "LANGUAGES": "Erlaubt das Laden von zusätzlichen Sprachen für das Desktop Wallet",
+        "TIMERS": "Erlaubt die Nutzung von Timeouts und Intervallen",
+        "UI_COMPONENTS": "Erlaubt Zugriff auf die Standard Desktop Wallet Komponenten",
+        "UTILS": "Erlaubt die Nutzung von Hilfsfunktionen wie BigNumber und dayjs",
+        "WALLET_TABS": "Erlaubt die Anzeige von zusätzlichen Laschen/Seiten im Wallet Fenster",
+        "WEBFRAME": "Erlaubt die Anzeige von fremden URL Seiten in einem Fenster",
+        "WEBSOCKET": "Erlaubt Verbindungen über Websockets"
       }
     },
     "MODAL_PLUGIN_URL": {
-      "TITLE": "Install from URL",
-      "EXPLANATION": "Fetch the plugin directly from GitHub by using the URL of the plugin repository in the input field below.",
-      "DISCLAIMER": "<b>Disclaimer:</b> Please make sure to check the documentation of the plugin before installing it. By installing it on your wallet, you assume every responsibility."
+      "TITLE": "Installieren von einer URL",
+      "EXPLANATION": "Lade das Plugin direkt von GitHub mit Hilfe der URL im Plugin Repository. Add the URL to the field below.",
+      "DISCLAIMER": "<b>Warnung:</b> Bitte prüf die Dokumentation des Plugins vor der Installation. Mit der Installation übernehmen sie alle Verantwortung."
     },
     "PASSPHRASE_INPUT": {
-      "HIDE": "Hide the passphrase",
+      "HIDE": "Passphrase verstecken",
       "LABEL": "Passphrase",
-      "QR": "Scan the QR code",
-      "SHOW": "Show the passphrase"
+      "QR": "Scannen des QR Codes",
+      "SHOW": "Zeige die Passphrase"
     },
     "PASSWORD_INPUT": {
-      "HIDE": "Hide the password",
+      "HIDE": "Passwort verstecken",
       "LABEL": "Password",
-      "SHOW": "Show the password"
+      "SHOW": "Zeige das Password"
     },
     "PASSPHRASE_VERIFICATION": {
-      "WORD_LABEL_1": "The 1st word",
-      "WORD_LABEL_2": "The 2nd word",
-      "WORD_LABEL_3": "The 3rd word",
-      "WORD_LABEL_4": "The 4th word",
-      "WORD_LABEL_5": "The 5th word",
-      "WORD_LABEL_6": "The 6th word",
-      "WORD_LABEL_7": "The 7th word",
-      "WORD_LABEL_8": "The 8th word",
-      "WORD_LABEL_9": "The 9th word",
-      "WORD_LABEL_10": "The 10th word",
-      "WORD_LABEL_11": "The 11th word",
-      "WORD_LABEL_12": "The 12th word"
+      "WORD_LABEL_1": "Das 1. Wort",
+      "WORD_LABEL_2": "Das 2. Wort",
+      "WORD_LABEL_3": "Das 3. Wort",
+      "WORD_LABEL_4": "Das 4. Wort",
+      "WORD_LABEL_5": "Das 5. Wort",
+      "WORD_LABEL_6": "Das 6. Wort",
+      "WORD_LABEL_7": "Das 7. Wort",
+      "WORD_LABEL_8": "Das 8. Wort",
+      "WORD_LABEL_9": "Das 9. Wort",
+      "WORD_LABEL_10": "Das 10. Wort",
+      "WORD_LABEL_11": "Das 11. Wort",
+      "WORD_LABEL_12": "Das 12. Wort"
     },
     "PAGES": {
       "CONTACT_ALL": {
-        "CREATE_CONTACT": "Create Contact",
-        "IMPORT_CONTACT": "Import Contact",
-        "INSTRUCTIONS": "This page allows you to create contacts, making it easier for you to work with addresses by giving them an identifiable name",
-        "HEADER": "My contacts",
-        "SHOW_CONTACT": "Show contact"
+        "CREATE_CONTACT": "Kontakt erstellen",
+        "IMPORT_CONTACT": "Kontakt importieren",
+        "INSTRUCTIONS": "Diese Seite erlaubt dir Kontakte zu erstellen. Das vereinfacht die Arbeit mit Adressen und gibt ihnen erkennbare Namen.",
+        "HEADER": "Meine Kontakte",
+        "SHOW_CONTACT": "Kontakte anzeigen"
       },
       "CONTACT_NEW": {
         "INSTRUCTIONS": {
-          "HEADER": "New contact",
-          "TEXT": "Enter the address of your contact. You will be able to view its transactions"
+          "HEADER": "Neuer Kontakt",
+          "TEXT": "Gib die Adresse deines Kontaktes ein. Du wirst dessen Transaktionen sehen."
         },
-        "TITLE": "Enter contact address",
-        "ADDRESS": "Address",
-        "NAME": "Contact name (optional)",
+        "TITLE": "Kontakt Adresse eingeben",
+        "ADDRESS": "Addresse",
+        "NAME": "Kontakt Name (optional)",
         "NAME_INFO": "Info:",
-        "NAME_DESCRIPTION": "Contact name is not required, but it can be used for your convenience",
-        "FAILED": "Failed to create contact",
-        "SUCCESS": "'{0}' has been added to your contacts"
+        "NAME_DESCRIPTION": "Der Kontakt Name ist nicht nötig, macht die Identifikation jedoch einfacher",
+        "FAILED": "Fehler beim erstellen des Kontaktes",
+        "SUCCESS": "'{0}' wurde zu deinen Kontakten hinzugefügt"
       },
       "DASHBOARD": {
-        "ALL_WALLETS": "All wallets",
-        "ADD_WALLET": "Add a wallet",
-        "CREATE_WALLET": "Create Wallet",
-        "IMPORT_WALLET": "Import Wallet",
-        "LAST_TRANSACTIONS": "Last transactions"
+        "ALL_WALLETS": "Alle Wallets",
+        "ADD_WALLET": "Hinzufügen eines Wallet",
+        "CREATE_WALLET": "Erzeuge ein Wallet",
+        "IMPORT_WALLET": "Importiere ein Wallet",
+        "LAST_TRANSACTIONS": "Letzte Transaktionen"
       },
       "NETWORK_OVERVIEW": {
         "INSTRUCTIONS": {
-          "HEADER": "Manage networks",
-          "TEXT": "Select and edit any of the available networks, or add new ones."
+          "HEADER": "Netzwerke verwalten",
+          "TEXT": "Wähle und editiere bestehende Netzwerke und füge Neue hinzu"
         },
-        "CREATE_NEW": "Add a new network",
-        "CREATE_NEW_DESCRIPTION": "Individual settings for your network",
-        "NEW_NETWORK": "New network"
+        "CREATE_NEW": "Hinzufügen eines neuen Netzwerkes",
+        "CREATE_NEW_DESCRIPTION": "Persönliche Einstellungen für dein Netzwerk",
+        "NEW_NETWORK": "Neues Netzwerk"
       },
       "PLUGIN_MANAGER": {
         "HEADER": "Plugins",
-        "ENABLED": "Enabled",
-        "DISABLED": "Disabled",
-        "INSTALL": "Install",
-        "INSTALLING": "Installing '{plugin}'",
-        "INSTALL_URL": "Install from URL",
-        "BLACKLISTING": "Blacklisting '{plugin}'",
-        "REMOVING": "Removing '{plugin}'",
-        "UPDATING": "Updating '{plugin}'",
-        "OFFICIAL": "Official {author} plugin",
-        "GRANTS": "Funded by ARK Grants",
+        "ENABLED": "Aktiviert",
+        "DISABLED": "Deaktiviert",
+        "INSTALL": "Installieren",
+        "INSTALLING": "Installiere '{plugin}'",
+        "INSTALL_URL": "Von URL installieren",
+        "BLACKLISTING": "Schwarze Liste '{plugin}'",
+        "REMOVING": "Entferne '{plugin}'",
+        "UPDATING": "Aktualisiere '{plugin}'",
+        "OFFICIAL": "Offizielles {author} Plugin",
+        "GRANTS": "finanziert durch ARK Grants",
         "MENU": "Menu",
         "BANNER": {
-          "TITLE": "Welcome to the Plugin Manager",
-          "SUBTITLE": "The easy way to find, manage and install plugins"
+          "TITLE": "Willkommen im Plugin Manager",
+          "SUBTITLE": "Der einfache Weg zum Finden, Verwalten und Installieren von Plugins"
         },
         "CATEGORIES": {
-          "ALL": "All",
-          "GAMING": "Gaming",
-          "UTILITY": "Utility",
+          "ALL": "Alle",
+          "GAMING": "Spiele",
+          "UTILITY": "Dienste",
           "THEME": "Themes",
-          "LANGUAGE": "Languages",
-          "OTHER": "Other"
+          "LANGUAGE": "Sprachen",
+          "OTHER": "Andere"
         },
         "FILTERS": {
-          "ALL": "all",
-          "INSTALLED": "installed"
+          "ALL": "Alle",
+          "INSTALLED": "Installiert"
         },
         "NO_SEARCH_RESULTS": "Unfortunately, searching for \"{query}\" returned no results",
         "NO_RESULTS": "There are no {filter} plugins with the category {category}",
