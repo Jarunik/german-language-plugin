@@ -1,0 +1,35 @@
+{
+  "name": "@jarunik/german-language-plugin",
+  "version": "1.0.0",
+  "description": "German Language Pack for the ARK Desktop Wallet",
+  "main": "src/index.js",
+  "author": "Jarunik <jarunik@arkcoin.net>",
+  "license": "MIT",
+  "desktop-wallet": {
+    "title": "German Language Pack",
+    "logo": "https://raw.githubusercontent.com/jarunik/german-language-plugin/master/logo.png",
+    "categories": [
+      "language"
+    ],
+    "permissions": [
+      "LANGUAGES"
+    ],
+    "minimumVersion": "2.9.1"
+  },
+  "keywords": [
+    "german",
+    "language",
+    "translations",
+    "@arkecosystem",
+    "desktop-wallet",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/jarunik/german-language-plugin/issues"
+  },
+  "homepage": "https://github.com/jarunik/german-language-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarunik/german-language-plugin.git"
+  }
+}
