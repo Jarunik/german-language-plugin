@@ -112,7 +112,7 @@
         "OWNER": "Die bringt aber auch zusätzliche Pflichten für dich als Konto Inhaber.",
         "WARNING": {
           "ACCOUNT": "Anders als bein deinem herkömmlichen Bank Konto, {CANNOT_RESTORE}.",
-          "CANNOT_RESTORE": "verloren Passswörter, Passphrases oder gestohlene Vermögen können in keiner Weise durch Delegierte, dem ARK.io Team oder sonst jemanden wiederhergestellt werden"
+          "CANNOT_RESTORE": "verlorene Passwörter, Passphrases oder gestohlene Vermögen können in keiner Weise durch Delegierte, dem ARK.io Team oder sonst jemanden wiederhergestellt werden"
         },
         "SECURITY": "Die Sicherheit deines Kontos ist komplett in deiner Verantwortung."
       },
@@ -132,7 +132,7 @@
       },
       "TURN": {
         "TITLE": "Du bist dran",
-        "KNOWLEDGE": "Nun weissst du wie wichtig es ist deine Passphrase sicher zu verwalten. Damit steht auch deiner finanziellen Unabhängigkeit mit dem Ark Desktop Wallet nichts mehr im Wege.",
+        "KNOWLEDGE": "Nun weisst du wie wichtig es ist deine Passphrase sicher zu verwalten. Damit steht auch deiner finanziellen Unabhängigkeit mit dem Ark Desktop Wallet nichts mehr im Wege.",
         "SUPPORT": "ARK ist ein Open Source Ökosystem und die ARK Gemeinschaft und das Team sind gerne bereit dir zu helfen. Du kannst bei Fragen einen Beitrag auf reddit.ark.io erstellen oder unserem Chat auf slack.ark.io beitreten.",
         "CONCLUSION": "Das ARK.io team wünscht dir viel Spass bei der Benutzung des ARK Desktop Wallets und freut sich dass du bei der Blockchain Revolution dabei bist!"
       }
@@ -152,7 +152,7 @@
     "ENCRYPTION": {
       "DECRYPTING": "Entschlüssle Wallet Passwort...",
       "ENCRYPTING": "Verschlüssle Wallet Passwort...",
-      "FAILED_DECRYPT": "Fehler beim entschüsseln der Passphrase",
+      "FAILED_DECRYPT": "Fehler beim entschlüsseln der Passphrase",
       "FAILED_ENCRYPT": "Fehler beim verschlüsseln der Passphrase"
     },
     "LEDGER": {
@@ -530,7 +530,7 @@
       "DOWNLOADING": "Lade {plugin}",
       "INSTALL": "Jetzt installieren",
       "UPDATE": "Jetzt aktualisieren",
-      "UNKNOWN_ERROR": "Unbekanter Fehler. Schliesse dieses Fenster und versuche es erneut."
+      "UNKNOWN_ERROR": "Unbekannter Fehler. Schliesse dieses Fenster und versuche es erneut."
     },
     "MODAL_PLUGIN_PERMISSIONS": {
       "ALTERNATIVE_TITLE": "Dieses Plugin benötigt die folgenden Permissions",
@@ -608,7 +608,7 @@
           "TEXT": "Gib die Adresse deines Kontaktes ein. Du wirst dessen Transaktionen sehen."
         },
         "TITLE": "Kontakt Adresse eingeben",
-        "ADDRESS": "Addresse",
+        "ADDRESS": "Adresse",
         "NAME": "Kontakt Name (optional)",
         "NAME_INFO": "Info:",
         "NAME_DESCRIPTION": "Der Kontakt Name ist nicht nötig, macht die Identifikation jedoch einfacher",
@@ -771,10 +771,10 @@
       "WALLET_EXCHANGE": {
         "CHANGELLY_TERMS": {
           "TITLE": "Kaufe {ticker} direkt im Ark Desktop Wallet mit der Changelly integration",
-          "CONTENT": "Changelly lets you exchange other cryptocurrencies into {ticker} and has an option to buy {ticker} directly with your credit or debit cards.",
-          "CONFIRMATION": "I have read and I agree with the {terms} and the {privacy} from Changelly. By clicking {button}, I acknowledge and understand that my transaction may trigger AML/KYC verification according to Changelly {kyc}.",
-          "TERMS_OF_USE": "Nutzungsbedingungen",
-          "PRIVACY_POLICY": "Datenschutzrichtlinien",
+          "CONTENT": "Changelly erlaubt dir deine Crypto-Währungen direkt in {ticker} umzuwandeln. Du kannst {ticker} auch direkt mit deiner Debit- oder Kreditkarte kaufen.",
+          "CONFIRMATION": "Haftungsausschluss (EN): I have read and I agree with the {terms} and the {privacy} from Changelly. By clicking {button}, I acknowledge and understand that my transaction may trigger AML/KYC verification according to Changelly {kyc}.",
+          "TERMS_OF_USE": "terms of use",
+          "PRIVACY_POLICY": "privacy policy",
           "KYC": "AML/KYC"
         }
       },
@@ -1215,7 +1215,7 @@
         "PLACEHOLDER_WALLETS": "Klicke um die Wallets zu filtern"
       },
       "SORT": {
-        "BALANCE_ASC": "Kontotstand (min to max)",
+        "BALANCE_ASC": "Kontostand (min to max)",
         "BALANCE_DESC": "Kontostand (max to min)",
         "BY": "Sortiere nach",
         "NAME_ASC": "Name (A to Z)",
@@ -1327,7 +1327,7 @@
       "ADDRESS_INFO": "Setze einen Namen für diesen Kontakt: "
     },
     "WALLET_REMOVAL_CONFIRMATION": {
-      "NOTE": "Daten auf der Blocckchain werden nicht gelöscht. Du kannst das Wallet mit der korrekten Passphrase wiederherstellen",
+      "NOTE": "Daten auf der Blockchain werden nicht gelöscht. Du kannst das Wallet mit der korrekten Passphrase wiederherstellen",
       "QUESTION": "Willst du das Wallet wirklich entfernen?",
       "CONTACT_QUESTION": "Willst du den Kontakt wirklich entfernen?"
     },
@@ -1346,7 +1346,7 @@
     },
     "BLACKLIST_DISCLAIMER_CONFIRMATION": {
       "QUESTION": "Willst du die Schwarze Liste deaktivieren?",
-      "NOTE": "Haftungsausschluss: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking \"I Accept\" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
+      "NOTE": "Haftungsausschluss (EN): By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking \"I Accept\" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
       "ACCEPT": "Ich akzeptiere",
       "CANCEL": "Abbrechen"
     },
