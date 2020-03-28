@@ -1,7 +1,7 @@
 {
   "name": "@jarunik/german-language-plugin",
   "version": "1.0.0",
-  "description": "German Language Pack for the ARK Desktop Wallet",
+  "description": "German Language Option for Profile",
   "main": "src/index.js",
   "author": "Jarunik <jarunik@arkcoin.net>",
   "license": "MIT",
