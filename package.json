@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "German Language Option for Profile",
   "main": "src/index.js",
-  "author": "Jarunik <jarunik@arkcoin.net>",
+  "author": "Jarunik <jens@hviid.ch>",
   "license": "MIT",
   "desktop-wallet": {
     "title": "German Language Pack",
