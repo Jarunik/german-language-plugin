@@ -49,7 +49,7 @@
       "FAILED_UPDATE": "Fehler beim Aktualisieren von '{name}'. Grund: {reason}",
       "FAILED_FETCH": "Fehler beim Abrufen von {name}. Grund: '{msg}'.",
       "FETCH": "Abrufen",
-      "FILTER_BLACKLISTED_PLUGINS": "Filtern von Plugins der schwarzen Liste",
+      "FILTER_BLACKLISTED_PLUGINS": "Filtern von Plugins der Schwarzen Liste",
       "FINISH": "Abschliessen",
       "HIDE_WALLET_BUTTON_TEXT": "Button Texte ausblenden",
       "INITIALIZING": "Initialisieren...",
@@ -1115,109 +1115,109 @@
       "WELL_CONFIRMED_COUNT": "Gut Bestätigt ({confirmations} confirmations)"
     },
     "SIGN_VERIFY": {
-      "VERIFY_WALLET": "Verify your wallet",
-      "VERIFY_BY_SIGNING": "Sign a message to verify you own the wallet",
-      "SIGN": "Sign",
-      "VERIFY": "Verify",
-      "TITLE_SIGN": "Sign a message",
-      "TITLE_VERIFY": "Verify a message",
-      "MESSAGE": "Message",
-      "ADDRESS": "Address",
-      "PUBLIC_KEY": "Public key",
-      "SIGNATURE": "Signature",
-      "JSON_MESSAGE": "Signed message content",
+      "VERIFY_WALLET": "Verifiziere dein Wallet",
+      "VERIFY_BY_SIGNING": "Unterschreibe eine Nachricht um den Besitz des Wallets zu beweisen",
+      "SIGN": "Unterschreiben",
+      "VERIFY": "Verifizieren",
+      "TITLE_SIGN": "Eine Nachricht unterschreiben",
+      "TITLE_VERIFY": "Eine Nachricht verifizieren",
+      "MESSAGE": "Nachricht",
+      "ADDRESS": "Adresse",
+      "PUBLIC_KEY": "Öffentlicher Schlüssel",
+      "SIGNATURE": "Unterschrift",
+      "JSON_MESSAGE": "Inhalt der unterschriebenen Nachricht",
       "FORMAT_FOOTER": "Format (JSON): { \"publicKey\": \"...\", \"signature\": \"...\", \"message\": \"...\" }",
-      "VERIFIED": "The message is verified successfully",
-      "NOT_VERIFIED": "The message is NOT verified",
-      "CONFIRMATION": "Confirmation",
-      "DELETE": "Delete message",
-      "FAILED_SIGN": "Could not sign message",
-      "FAILED_VERIFY": "Could not verify message",
-      "SUCCESSFULL_SIGN": "Your message was signed",
-      "SUCCESSFULL_VERIFY": "The message was verified"
+      "VERIFIED": "Die Nachricht wurde erfolgreich verifiziert",
+      "NOT_VERIFIED": "Die Nachricht ist NICHT verifiziert",
+      "CONFIRMATION": "Bestätigung",
+      "DELETE": "Nachricht löschen",
+      "FAILED_SIGN": "Konnte die Nachricht nicht unterschreiben",
+      "FAILED_VERIFY": "Konnte die Nachricht nicht verifizieren",
+      "SUCCESSFULL_SIGN": "Deine Nachricht wurde unterschrieben",
+      "SUCCESSFULL_VERIFY": "Die Nachricht wurde verifiziert"
     },
     "SYNCHRONIZER": {
       "GROUP_1": {
-        "VOTE": "voted for",
-        "UNVOTE": "unvoted",
-        "NEW_SECOND_SIGNATURE": "New second signature: {address}",
-        "NEW_DELEGATE_REGISTRATION": "New delegate: {address} registered as {username}",
-        "NEW_VOTE": "New vote: {address} {voteUnvote} {publicKey}",
-        "NEW_MULTI_SIGNATURE": "New multisignature registration: {address}",
-        "NEW_IPFS": "New IPFS hash: {address}",
-        "NEW_MULTI_PAYMENT_SENT": "New multipayment: {amount} sent from {sender} to {recipient}",
-        "NEW_MULTI_PAYMENT_RECEIVED": "New multipayment: {amount} received from {sender} to {recipient}",
-        "NEW_DELEGATE_RESIGNATION": "New delegate resignation: {address} registered as {username}",
-        "NEW_TRANSFER_SENT": "New transfer: {amount} sent from {sender} to {recipient}",
-        "NEW_TRANSFER_RECEIVED": "New transfer: {amount} received from {sender} to {recipient}"
+        "VOTE": "wählt für",
+        "UNVOTE": "abgewählt",
+        "NEW_SECOND_SIGNATURE": "Neue zweite Unterschrift: {address}",
+        "NEW_DELEGATE_REGISTRATION": "Neuer Delegierter: {address} registriert als {username}",
+        "NEW_VOTE": "Neue Wahl: {address} {voteUnvote} {publicKey}",
+        "NEW_MULTI_SIGNATURE": "Neue Mehrfach-Unterschrift Registrierung: {address}",
+        "NEW_IPFS": "Neuer IPFS Hash: {address}",
+        "NEW_MULTI_PAYMENT_SENT": "Neue Massenzahlung: {amount} gesendet von {sender} an {recipient}",
+        "NEW_MULTI_PAYMENT_RECEIVED": "Neue Massenzahlung: {amount} erhalten von {sender} für {recipient}",
+        "NEW_DELEGATE_RESIGNATION": "Neuer Delegierten Rücktritt: {address} zurückgetreten als {username}",
+        "NEW_TRANSFER_SENT": "Neuer Transfer: {amount} gesendet von {sender} an {recipient}",
+        "NEW_TRANSFER_RECEIVED": "Neuer Transfer: {amount} erhalten von {sender} für {recipient}"
       },
       "GROUP_2": {
-        "NEW_BUSINESS_REGISTRATION": "New business registration: {address} business {name}",
-        "NEW_BUSINESS_RESIGNATION": "New business resignation: {address}",
-        "NEW_BUSINESS_UPDATE": "New business update: {address}",
-        "NEW_BRIDGECHAIN_REGISTRATION": "New bridgechain registration: {address}, bridgechain {bridgechain}",
-        "NEW_BRIDGECHAIN_RESIGNATION": "New bridgechain resignation: {address}, bridgechain {bridgechain}",
-        "NEW_BRIDGECHAIN_UPDATE": "New bridgechain update: {address}, bridgechain {bridgechain}"
+        "NEW_BUSINESS_REGISTRATION": "Neue Geschäfts Registration: {address} Geschäft {name}",
+        "NEW_BUSINESS_RESIGNATION": "Neuer Geschäfts Rücktritt: {address}",
+        "NEW_BUSINESS_UPDATE": "Neue Geschäfts Aktualisierung: {address}",
+        "NEW_BRIDGECHAIN_REGISTRATION": "Neue Bridgechain Registrierung: {address}, Bridgechain {bridgechain}",
+        "NEW_BRIDGECHAIN_RESIGNATION": "Neue Bridgechain Rücktritt: {address}, Bridgechain {bridgechain}",
+        "NEW_BRIDGECHAIN_UPDATE": "Neue Bridgechain Aktualisierung: {address}, Bridgechain {bridgechain}"
       }
     },
     "TRANSACTION_FORM": {
       "ERROR": {
-        "NOT_ENOUGH_BALANCE": "The balance is too low ({balance})"
+        "NOT_ENOUGH_BALANCE": "Der Kontostand ist zu tief ({balance})"
       }
     },
     "TRANSACTION_DETAIL": {
-      "SEND_AMOUNT": "Send {token}"
+      "SEND_AMOUNT": "Sende {token}"
     },
     "WALLET_HEADING": {
       "ACTIONS": {
         "WALLET_NAME": "Wallet Name",
-        "CONTACT_NAME": "Contact Name",
-        "REGISTER_MULTISIGNATURE": "Register Multisignature",
-        "REGISTER_DELEGATE": "Register Delegate",
-        "RESIGN_DELEGATE": "Resign Delegate",
-        "SECOND_PASSPHRASE": "Second Passphrase",
-        "DELETE_CONTACT": "Delete Contact",
-        "DELETE_WALLET": "Delete Wallet",
-        "SHOW_PUBLIC_KEY": "Show Public Key",
-        "SHOW_ADDRESS": "Show Address",
+        "CONTACT_NAME": "Kontakt Name",
+        "REGISTER_MULTISIGNATURE": "Registriere Mehrfach-Unterschrift",
+        "REGISTER_DELEGATE": "Registriere Delegierter",
+        "RESIGN_DELEGATE": "Rücktritt Delegierter",
+        "SECOND_PASSPHRASE": "Zweite Passphrase",
+        "DELETE_CONTACT": "Lösche Kontakt",
+        "DELETE_WALLET": "Lösche Wallet",
+        "SHOW_PUBLIC_KEY": "Zeige öffentlicher Schlüssel",
+        "SHOW_ADDRESS": "Zeige Adresse",
         "BUSINESS": {
-          "REGISTER": "Register Business",
-          "RESIGN": "Resign Business",
-          "UPDATE": "Update Business",
-          "CANNOT_RESIGN": "You must resign all bridgechains first"
+          "REGISTER": "Registriere Geschäft",
+          "RESIGN": "Rücktritt Geschäft",
+          "UPDATE": "Aktualisiere Geschäft",
+          "CANNOT_RESIGN": "Du musst zuerst mit allen Bridgechains zurücktreten"
         },
         "BRIDGECHAIN": {
-          "REGISTER": "Register Bridgechain",
-          "RESIGN": "Resign Bridgechain",
-          "UPDATE": "Update Bridgechain"
+          "REGISTER": "Registriere Bridgechain",
+          "RESIGN": "Rücktritt Bridgechain",
+          "UPDATE": "Aktualisiere Bridgechain"
         }
       },
-      "PENDING_BALANCE": "{amount} including 1 unconfirmed transaction | {amount} including {n} unconfirmed transactions",
+      "PENDING_BALANCE": "{amount} inklusive 1 unbestätigte Transaktion | {amount} inklusive {n} unbestätigte Transaktionen",
       "SECOND_PASSPHRASE_ENABLED": "Second Signature Enabled"
     },
     "WALLET_SECOND_SIGNATURE": {
-      "NEW": "Generate new second passphrase",
-      "ALREADY_REGISTERED": "There is already a second passphrase registered for this address",
-      "INSTRUCTIONS": "You will need both 12 word passphrases to interact with the network. Keep them safe!"
+      "NEW": "Generiere neue zweite Passphrase",
+      "ALREADY_REGISTERED": "Für diese Adresse wurde bereits eine zweite Passphrase registriert",
+      "INSTRUCTIONS": "Für die Interaktion mit dem Netzwerk wirst du  beide 12 Wort Passphrases benötigen. Schütze sie gut!"
     },
     "WALLET_SIDEBAR": {
       "FILTER": "Filter",
-      "HIDE": "Hide",
-      "EXPAND": "Expand",
-      "LOADING_LEDGER": "Loading Ledger...",
+      "HIDE": "Verstecken",
+      "EXPAND": "Expandieren",
+      "LOADING_LEDGER": "Lade Ledger...",
       "FILTERS": {
-        "HIDE_EMPTY_CONTACTS": "Hide empty contacts",
-        "HIDE_EMPTY_WALLETS": "Hide empty wallets",
-        "HIDE_LEDGER": "Hide Ledger wallets"
+        "HIDE_EMPTY_CONTACTS": "Verstecke leere Kontakte",
+        "HIDE_EMPTY_WALLETS": "Verstecke leere Wallets",
+        "HIDE_LEDGER": "Verstecke Ledger Wallets"
       },
       "SEARCH": {
-        "PLACEHOLDER_CONTACTS": "Click to filter your contacts",
-        "PLACEHOLDER_WALLETS": "Click to filter your wallets"
+        "PLACEHOLDER_CONTACTS": "Klicke um die Kontakte zu filtern",
+        "PLACEHOLDER_WALLETS": "Klicke um die Wallets zu filtern"
       },
       "SORT": {
-        "BALANCE_ASC": "Balance (min to max)",
-        "BALANCE_DESC": "Balance (max to min)",
-        "BY": "Sort by",
+        "BALANCE_ASC": "Kontotstand (min to max)",
+        "BALANCE_DESC": "Kontostand (max to min)",
+        "BY": "Sortiere nach",
         "NAME_ASC": "Name (A to Z)",
         "NAME_DESC": "Name (Z to A)"
       }
@@ -1225,66 +1225,66 @@
     "WALLET_DELEGATES": {
       "STATUS": {
         "TITLE": "Status",
-        "ACTIVE": "Active",
-        "STANDBY": "Standby",
-        "RESIGNED": "Resigned"
+        "ACTIVE": "Aktiv",
+        "STANDBY": "In Bereitschaft",
+        "RESIGNED": "Zurückgetreten"
       },
-      "RANK": "Rank",
-      "USERNAME": "Username",
+      "RANK": "Rang",
+      "USERNAME": "Benutzername",
       "RANK_BANNER": "Rank: {rank}",
-      "RANK_NOT_APPLICABLE": "Not applicable",
-      "RANK_NOT_AVAILABLE": "Not yet available",
-      "APPROVAL": "Vote %",
+      "RANK_NOT_APPLICABLE": "Nicht anwendbar",
+      "RANK_NOT_AVAILABLE": "Noch nicht verfügbar",
+      "APPROVAL": "Wähle %",
       "FORGED": "Forged",
       "BLOCKS": "Blocks",
-      "VOTERS": "Voters",
-      "UNVOTE": "Unvote",
-      "VOTES": "Votes",
-      "VOTE": "Vote",
-      "USERNAME_EMPTY_ERROR": "The username must have at least 1 character",
-      "USERNAME_ERROR": "No special characters or uppercase allowed",
-      "USERNAME_EXISTS": "A delegate with this username already exists",
-      "USERNAME_MAX_LENGTH_ERROR": "The username must be less than or equal to 20 characters long",
-      "ALREADY_REGISTERED": "This wallet is already registered as a delegate",
-      "NOT_REGISTERED": "This wallet is not registered as a delegate",
-      "BLOG": "Voting Guide",
-      "EXPLANATION": "Voting is an optional, but important mechanism that keeps the ARK network secure. The {delegates} delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for a delegate that you support. Learn more about voting for a delegate by clicking on the following link:",
-      "VOTE_DELEGATE": "Vote Delegate {delegate}",
-      "UNVOTE_DELEGATE": "Unvote Delegate {delegate}",
-      "CURRENTLY_VOTED": "You are currently voting for {delegate}",
-      "VOTED_FOR": "You voted for delegate {delegate}",
-      "WALLET_VOTED_FOR": "This wallet voted for delegate {delegate}",
+      "VOTERS": "Wähler",
+      "UNVOTE": "Abwählen",
+      "VOTES": "Stimmen",
+      "VOTE": "Stimme",
+      "USERNAME_EMPTY_ERROR": "Der Benutzername muss mindestens 1 Zeichen enthalten",
+      "USERNAME_ERROR": "Es sind keine Sonderzeichen oder Grossschreibung erlaubt",
+      "USERNAME_EXISTS": "Es gibt bereits einen Delegierten mit diesem Benutzernamen",
+      "USERNAME_MAX_LENGTH_ERROR": "Der Benutzername muss weniger oder gleich 20 Zeichen lang sein",
+      "ALREADY_REGISTERED": "Dieses Wallet ist bereits als Delegierter registriert",
+      "NOT_REGISTERED": "Dieses Wallet ist nicht als Delegierter registriert",
+      "BLOG": "Wahl Guide",
+      "EXPLANATION": "Wählen ist eine freiwillige aber wichtig Möglichkeit das ARK Netzwerk zu unterstützen. Die {delegates} Delegierten mit den meisten Stimmen sind für die Erzeugung von Blocks und der Verarbeitung von Transaktionen zuständig. Diese Seite erlaubt dir die Wahl eines Delegierten. Falls due mehr über das Wählen eines Delegierten wissen willst klicke diesen Link:",
+      "VOTE_DELEGATE": "Wähle Delegierten {delegate}",
+      "UNVOTE_DELEGATE": "Delegierten abwählen {delegate}",
+      "CURRENTLY_VOTED": "Du wählst momentan für {delegate}",
+      "VOTED_FOR": "Du hast für den folgenden Delegierten gewählt: {delegate}",
+      "WALLET_VOTED_FOR": "Dieses Wallet hat für den folgenden Delegierten gewählt: {delegate}",
       "VOTE_INFO": "Info:",
-      "NO_VOTE": "This wallet is not voting. To view more information and vote, use the search or click on any delegate",
-      "AWAITING_VOTE_CONFIRMATION": "Your {type} is awaiting confirmation",
-      "LOADING_VOTE": "Loading vote details...",
-      "SEARCH_DELEGATE": "Search delegate"
+      "NO_VOTE": "Dieses Wallet hat nicht gewählt. Du kannst die Suche benutzen oder einen Delegierten anklicken um zu wählen",
+      "AWAITING_VOTE_CONFIRMATION": "Dein {type} wartet auf Bestätigung",
+      "LOADING_VOTE": "Lade Wahl Details...",
+      "SEARCH_DELEGATE": "Suche Delegierten"
     },
     "WALLET_IPFS": {
       "HEADER": "IPFS Hash",
-      "DESCRIPTION": "Store an IPFS hash on the network",
-      "BUTTON_STORE_HASH": "Store Hash",
+      "DESCRIPTION": "Speichere einen IPFS Hash im Netzwerk",
+      "BUTTON_STORE_HASH": "Speichere Hash",
       "MESSAGE": "IPFS Hash",
       "SIGNATURE": "IPFS Hash",
       "HASH": "Hash",
-      "HASH_ERROR": "The IPFS Hash is not a valid hash"
+      "HASH_ERROR": "Der IPFS Hash ist ungültig"
     },
     "WALLET_MULTI_SIGNATURE": {
-      "HEADER": "Multisignature",
-      "DESCRIPTION": "Pending transactions requiring your signature",
-      "BUTTON_SET_PEER": "Set Peer"
+      "HEADER": "Mehrfach-Unterschrift",
+      "DESCRIPTION": "Hängige Transaktionen benötigen deine Unterschrift",
+      "BUTTON_SET_PEER": "Server setzen"
     },
     "WALLET_BUSINESS": {
-      "BUTTON_REGISTER_BRIDGECHAIN": "Register Bridgechain",
+      "BUTTON_REGISTER_BRIDGECHAIN": "Registriere Bridgechain",
       "HEADER": "Bridgechains",
-      "DESCRIPTION": "All bridgechains registered for this business",
+      "DESCRIPTION": "Alle Bidgechains dieses Geschäftes",
       "NAME": "Name",
-      "NAME_ERROR": "No special characters or uppercase allowed",
-      "WEBSITE": "Website",
+      "NAME_ERROR": "Keine Spezialzeichen oder Grossschreibung erlaubt",
+      "WEBSITE": "Webseite",
       "VAT": "VAT",
       "REPOSITORY": "Repository",
-      "NO_TRANSACTIONS": "This wallet has no bridgechains",
-      "NOT_REGISTERED": "This wallet is not registered as a business",
+      "NO_TRANSACTIONS": "Dieses Wallet hat keine Bridgechains",
+      "NOT_REGISTERED": "Dieses Wallet ist nicht als Geschäft registriert",
       "COLUMN": {
         "NAME": "Name",
         "SEEDS": "Seeds",
@@ -1293,75 +1293,75 @@
       },
       "BRIDGECHAIN": {
         "NAME": "Name",
-        "SEED_NODES": "Seed Nodes",
+        "SEED_NODES": "Seed Servers",
         "GENESIS_HASH": "Genesis Hash",
         "BRIDGECHAIN_REPOSITORY": "Bridgechain Repository",
         "BRIDGECHAIN_ASSET_REPOSITORY": "Bridgechain Asset Repository",
         "API_PORT": "API Port",
-        "NOT_REGISTERED": "This bridgechain is not registered",
-        "RESIGNED": "Resigned",
+        "NOT_REGISTERED": "Diese Bridgechain ist nicht registriert",
+        "RESIGNED": "Zurückgetreten",
         "BUTTON": {
-          "RESIGN": "Resign",
-          "UPDATE": "Update"
+          "RESIGN": "Zurücktreten",
+          "UPDATE": "Aktualisieren"
         }
       }
     },
     "WALLET_GRID": {
-      "LOADING_LEDGER": "Loading Ledger wallets..."
+      "LOADING_LEDGER": "Lade Ledger wallets..."
     },
     "WALLET_RENAME": {
-      "TITLE": "Rename wallet",
-      "TITLE_ADD": "Add wallet",
-      "NEW": "New wallet name",
-      "ADD": "Add wallet",
-      "RENAME": "Rename wallet",
-      "ADDRESS_INFO": "Set a name for this wallet: ",
-      "ERROR_LEDGER": "Could not rename ledger wallet: {error}"
+      "TITLE": "Wallet umbenennen",
+      "TITLE_ADD": "Wallet hinzufügen",
+      "NEW": "Neuer Wallet Name",
+      "ADD": "Wallet hinzufügen",
+      "RENAME": "Wallet umbenennen",
+      "ADDRESS_INFO": "Setze einen Namen für dieses Wallet: ",
+      "ERROR_LEDGER": "Konnte das Ledger Wallet nicht umbenennen: {error}"
     },
     "CONTACT_RENAME": {
-      "TITLE": "Rename contact",
-      "TITLE_ADD": "Add contact",
-      "NEW": "New contact name",
-      "ADD": "Add contact",
-      "RENAME": "Rename contact",
-      "ADDRESS_INFO": "Set a name for this contact: "
+      "TITLE": "Kontakt umbenennen",
+      "TITLE_ADD": "Kontakt hinzufügen",
+      "NEW": "Neuer Kontakt Name",
+      "ADD": "Kontakt hinzufügen",
+      "RENAME": "Kontakt umbenennen",
+      "ADDRESS_INFO": "Setze einen Namen für diesen Kontakt: "
     },
     "WALLET_REMOVAL_CONFIRMATION": {
-      "NOTE": "It does not delete any data on the blockchain. You could recover the wallet as long as you have the passphrase",
-      "QUESTION": "Are you sure you want to remove this wallet?",
-      "CONTACT_QUESTION": "Are you sure you want to remove this contact?"
+      "NOTE": "Daten auf der Blocckchain werden nicht gelöscht. Du kannst das Wallet mit der korrekten Passphrase wiederherstellen",
+      "QUESTION": "Willst du das Wallet wirklich entfernen?",
+      "CONTACT_QUESTION": "Willst du den Kontakt wirklich entfernen?"
     },
     "PLUGIN_REMOVAL_CONFIRMATION": {
-      "NOTE": "Uninstalling this plugin will remove it from all profiles on this system",
-      "QUESTION": "Are you sure you want to remove '{plugin}'?",
+      "NOTE": "Deinstallation des Plugins wird es von allen Profilen entfernen",
+      "QUESTION": "Willst du '{plugin}' wirklich entfernen?",
       "OPTIONS": {
-        "DATA": "Also delete all plugin data and settings?"
+        "DATA": "Willst du auch alle Plugin Daten und Einstellungen löschen?"
       },
-      "SUCCESS": "The plugin '{plugin}' has been uninstalled",
-      "ERROR": "Could not remove plugin: {error}"
+      "SUCCESS": "Das Plugin '{plugin}' wurde deinstalliert",
+      "ERROR": "Das Plugin konnte nicht entfernt werden: {error}"
     },
     "PLUGIN_BLACKLIST_CONFIRMATION": {
-      "NOTE": "By blacklisting the plugin it will be disabled on all profiles and will no longer appear in the Plugin Manager",
-      "QUESTION": "Do you want to blacklist '{plugin}'?"
+      "NOTE": "Wenn du das Plugin auf die Schwarze Liste setzt wird es für alle Profile deaktiviert und es wird nicht mehr im Plugin Manager angezeigt",
+      "QUESTION": "Willst du das Plugin '{plugin}' auf die Schwarze Liste setzen?"
     },
     "BLACKLIST_DISCLAIMER_CONFIRMATION": {
-      "QUESTION": "Are you sure you want to disable the blacklist?",
-      "NOTE": "Warning: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking \"I Accept\" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
-      "ACCEPT": "I Accept",
-      "CANCEL": "Cancel"
+      "QUESTION": "Willst du die Schwarze Liste deaktivieren?",
+      "NOTE": "Haftungsausschluss: By turning off filtering, you will be viewing third-party plugins that have not been tested and approved by ARK.io and ARK SCIC. We make no warranties, expressed or implied, as to the sustainability, availability, security, of the third-party plugin. We are not responsible for any of the content presented as a result of viewing, installing, or running any of these third-party plugins. ARK.io and ARK SCIC shall bear no liability for any loss suffered by using third-party plugins. By clicking \"I Accept\" you acknowledge that unverified third-party plugins may have bugs, glitches, lack of functionality, or can cause damage to your machine or result in the loss of data.",
+      "ACCEPT": "Ich akzeptiere",
+      "CANCEL": "Abbrechen"
     },
     "WALLET_TRANSACTIONS": {
-      "TRANSACTION_ID": "Transaction ID",
-      "RECIPIENT": "Recipient",
+      "TRANSACTION_ID": "Transaktions ID",
+      "RECIPIENT": "Empfänger",
       "SENDER": "Sender",
-      "AMOUNT": "Amount",
-      "NEW_TRANSACTIONS": "0 | This wallet has 1 new transaction. Press the refresh button to update. | This wallet has {count} new transactions. Press the refresh button to update."
+      "AMOUNT": "Betrag",
+      "NEW_TRANSACTIONS": "0 | Dieses Wallet hat 1 neue Transaktion. Du kannst die Ansicht per Knopfdruck aktualisieren. | Dieses Wallet hat {count} neue Transaktionen. Du kannst die Ansicht per Knopfdruck aktualisieren."
     },
     "WALLET_TABLE": {
       "ACTIONS": "Actions",
-      "DELETE": "Delete",
-      "NO_DELETE": "Ledger wallets cannot be deleted",
-      "RENAME": "Rename"
+      "DELETE": "Löschen",
+      "NO_DELETE": "Ledger Wallet können nicht gelöscht werden",
+      "RENAME": "Umbenennen"
     }
   }
 }
